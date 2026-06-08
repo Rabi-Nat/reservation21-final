@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>پنل مدیریت سالن</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/rtl.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/persian-datepicker@1.2.0/dist/css/persian-datepicker.min.css">
+  <style>
+    body { background: var(--body-bg); font-family: var(--body-font); }
+    .sidebar {
+      min-height: 100vh;
+      background: var(--white-color);
+      color: var(--theme-color);
+      border-left: 1px solid var(--border-color);
+      box-shadow: 0 2px 16px #0001;
+    }
+    .sidebar .nav-link {
+      color: var(--theme-color);
+      font-weight: 500;
+      border-radius: 8px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .sidebar .nav-link.active, .sidebar .nav-link:hover {
+      background: var(--secondary-color);
+      color: var(--title-color);
+    }
+    .sidebar .nav-link i { margin-left: 8px; }
+    .header-search {
+      background: var(--white-color);
+      border-radius: 12px;
+      box-shadow: 0 2px 12px #0001;
+      padding: 18px;
+      margin-bottom: 28px;
+      
+    }
+    .header-search .form-control#searchAll {
+      width: 100%;
+      min-width: 220px;
+      max-width: 100%;
+      display: block;
+    }
+
+    .dashboard-cards .card {
+      min-width: 180px;
+      margin-bottom: 18px;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px #0001;
+      border: 1px solid var(--border-color);
+      font-family: var(--body-font);
+    }
+    .dashboard-cards .card-title {
+      color: var(--theme-color);
+      font-weight: 600;
+    }
+    .chart-container {
+      background: var(--white-color);
+      border-radius: 12px;
+      box-shadow: 0 2px 12px #0001;
+      padding: 28px;
+      margin-bottom: 28px;
+    }
+    .table-responsive {
+      background: var(--white-color);
+      border-radius: 12px;
+      box-shadow: 0 2px 12px #0001;
+      padding: 18px;
+      border: 1px solid var(--border-color);
+    }
+    .sidebar { position: fixed; right: 0; top: 0; width: 220px; z-index: 1000; }
+    .main-content { margin-right: 220px; padding: 32px 24px 24px 24px; }
+    @media (max-width: 991px) {
+      .sidebar { position: static; width: 100%; min-height: auto; }
+      .main-content { margin-right: 0; padding: 16px; }
+    }
+    .btn-warning, .btn.btn-warning {
+      background: var(--theme-color);
+      color: #fff;
+      border: none;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .btn-warning:hover, .btn.btn-warning:hover {
+      background: var(--title-color);
+      color: #fff;
+    }
+    .btn-outline-primary {
+      color: var(--theme-color);
+      border-color: var(--theme-color);
+      border-radius: 8px;
+      font-weight: 500;
+    }
+    .btn-outline-primary:hover {
+      background: var(--theme-color);
+      color: #fff;
+    }
+    .card-body h3 {
+      color: var(--theme-color);
+      font-family: var(--title-font);
+    }
+    .datepicker-shamsi {
+      max-width: 150px;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .date-filter-input {
+      font-size: 13px;
+    }
+    .search-box {
+      position: relative;
+      display: inline-block;
+      
+    }
+    .search-box .search-icon {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #6c757d;
+      pointer-events: none;
+      font-size: 12px;
+    }
+    .search-box input {
+      padding-right: 35px;
+      border-radius: 20px;
+      border: 2px solid #e9ecef;
+      transition: all 0.3s ease;
+      background: #fff;
+    }
+    .search-box input:focus {
+      border-color: var(--theme-color);
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      outline: none;
+    }
+    .form-select-sm {
+      font-size:small;
+      padding: 2px;
+      border-radius: 20px;
+      border: 2px solid #e9ecef;
+      transition: all 0.3s ease;
+      background: #fff;
+    }
+    .form-select-sm:focus {
+      border-color: var(--theme-color);
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      outline: none;
+    }
+    .table-responsive {
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .table thead th {
+      background: var(--theme-color);
+      color: white;
+      border: none;
+      font-weight: 600;
+      padding: 15px 12px;
+    }
+    .table tbody td {
+      padding: 12px;
+      border-color: #f8f9fa;
+      vertical-align: middle;
+    }
+    .table tbody tr:hover {
+      background-color: #f8f9fa;
+      transition: background-color 0.2s ease;
+    }
+  </style>
+  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/persian-date@1.0.6/dist/persian-date.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/persian-datepicker@1.2.0/dist/js/persian-datepicker.min.js"></script>
+  <!-- jQuery UI CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <!-- jQuery UI JS -->
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
+  <!-- Flatpickr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <nav class="sidebar d-flex flex-column p-3">
+      <h4 class="mb-4 text-center">پنل مدیریت</h4>
+      <ul class="nav nav-pills flex-column mb-auto" id="sidebarMenu">
+        <li class="nav-item"><a href="#" class="nav-link active" data-section="dashboard"><i class="bi bi-bar-chart"></i>داشبورد</a></li>
+        <li><a href="#" class="nav-link" data-section="users"><i class="bi bi-people"></i>کاربران</a></li>
+        <li><a href="#" class="nav-link" data-section="salons"><i class="bi bi-building"></i>سالن‌ها</a></li>
+        <li><a href="#" class="nav-link" data-section="reservations"><i class="bi bi-calendar-check"></i>رزروها</a></li>
+        <li><a href="#" class="nav-link" data-section="reports"><i class="bi bi-graph-up"></i>گزارشات</a></li>
+        <li><a href="#" class="nav-link" data-section="settings"><i class="bi bi-gear"></i>تنظیمات</a></li>
+        <li><a href="#" class="nav-link" data-section="logout"><i class="bi bi-box-arrow-right"></i>خروج</a></li>
+      </ul>
+    </nav>
+    <!-- Main Content -->
+    <div class="main-content flex-grow-1">
+      <!-- Header Search -->
+      <div class="header-search d-flex flex-wrap align-items-center justify-content-between mb-4">
+        <div class="d-flex w-100 align-items-center gap-2">
+          <input type="text" class="form-control flex-grow-1" id="searchAll" placeholder="جستجو بر اساس نام سالن، مدیر یا کدملی">
+          <button class="btn btn-warning" id="searchBtn">جستجو</button>
+        </div>
+      </div>
+      <!-- Sections -->
+      <div id="section-dashboard">
+        <!-- Dashboard Cards -->
+        <div class="dashboard-cards row mb-4">
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h6 class="card-title">تعداد کل اعضا</h6>
+                <h3 id="totalMembers">0</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h6 class="card-title">تعداد مشتریان</h6>
+                <h3 id="totalCustomers">0</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h6 class="card-title">تعداد مدیران</h6>
+                <h3 id="totalManagers">0</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h6 class="card-title">تعداد سالن‌ها</h6>
+                <h3 id="totalSalons">0</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Charts -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="chart-container mb-4">
+              <h6 class="mb-3">روند تعداد اعضا، مشتریان و مدیران</h6>
+              <form class="row g-2 align-items-center mb-3" id="membersChartFilterForm">
+                <div class="col-12 col-md-4" >
+                  <input type="text" id="fromDate" class="form-control date-filter-input"  placeholder="از تاریخ" autocomplete="on" />
+                </div>
+                <div class="col-12 col-md-4">
+                  <input type="text" id="toDate" class="form-control date-filter-input" placeholder="تا تاریخ" autocomplete="on" />
+                </div>
+                <div class="col-12 col-md-4 d-grid">
+                  <button type="button" class="btn btn-warning btn-sm" id="filterMembersChart" style="min-width: 80px; width: auto;">اعمال فیلتر</button>
+                </div>
+              </form>
+              <canvas id="membersChart" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="chart-container mb-4">
+              <h6 class="mb-3">تعداد مشتریان در صف روزهای آینده</h6>
+              <canvas id="queueChart" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="chart-container mb-4">
+              <h6 class="mb-3">رزروهای انجام شده</h6>
+              <canvas id="reservationsChart" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="chart-container mb-4">
+              <h6 class="mb-3">مبالغ رزروهای آینده</h6>
+              <canvas id="amountChart" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="chart-container mb-4">
+              <h6 class="mb-3">مبالغ رزروهای انجام شده و جمع کل</h6>
+              <canvas id="completedAmountChart" height="180"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Users Section -->
+      <div id="section-users" style="display:none;">
+        <div class="table-responsive">
+          <h5 class="mb-3">لیست کاربران (مدیران و مشتریان)</h5>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>نام</th>
+                <th>نوع کاربر</th>
+                <th>کدملی</th>
+                <th>شماره تماس</th>
+                <th>سالن</th>
+                <th>عملیات</th>
+              </tr>
+            </thead>
+            <tbody id="usersTableBody">
+              <!-- داده نمونه با JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Salons Section -->
+      <div id="section-salons" style="display:none;">
+        <div class="table-responsive">
+          <h5 class="mb-3">لیست سالن‌ها</h5>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>نام سالن</th>
+                <th>مدیر</th>
+                <th>تلفن</th>
+                <th>آدرس</th>
+                <th>عملیات</th>
+              </tr>
+            </thead>
+            <tbody id="salonsTableBody">
+              <!-- داده نمونه با JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Reservations Section -->
+      <div id="section-reservations" style="display:none;">
+        <div class="table-responsive mb-4">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="mb-0">رزروهای مانده</h5>
+            <div class="d-flex gap-4 align-items-center">
+              <div class="search-box">
+                <input type="text" class="form-control form-control-sm" id="searchPending" placeholder="جستجو در رزروهای مانده..." style="width: 220px;font-size: 12px;">
+                  <i class="bi bi-search search-icon"></i>
+              </div>
+              <select class="form-select form-select-sm" id="lengthPending" style="width: 80px;">
+                <option value="10">نمایش: 10</option>
+                <option value="20">نمایش: 20</option>
+                <option value="50">نمایش: 50</option>
+                <option value="-1">نمایش: همه</option>
+              </select>
+
+            </div>
+          </div>
+          <table class="table table-striped" id="pendingReservationsTable">
+            <thead>
+              <tr>
+                <th>نام مشتری</th>
+                <th>سالن</th>
+                <th>تاریخ</th>
+                <th>ساعت</th>
+                <th>مبلغ</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+              </tr>
+            </thead>
+            <tbody id="pendingReservationsBody">
+              <!-- داده با JS -->
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="mb-0">رزروهای انجام شده</h5>
+            <div class="d-flex gap-2 align-items-center">
+              <div class="search-box">
+                <input type="text" class="form-control form-control-sm" id="searchCompleted" placeholder="جستجو در رزروهای انجام شده..." style="width: 220px;font-size: 12px;">
+                <i class="bi bi-search search-icon"></i>
+              </div>
+              <select class="form-select form-select-sm" id="lengthCompleted" style="width: 80px;">
+                <option value="10">نمایش: 10</option>
+                <option value="20">نمایش: 20</option>
+                <option value="50">نمایش: 50</option>
+                <option value="-1">نمایش: همه</option>
+              </select>
+            </div>
+          </div>
+          <table class="table table-striped" id="doneReservationsTable">
+            <thead>
+              <tr>
+                <th>نام مشتری</th>
+                <th>سالن</th>
+                <th>تاریخ</th>
+                <th>ساعت</th>
+                <th>مبلغ</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+              </tr>
+            </thead>
+            <tbody id="doneReservationsBody">
+              <!-- داده با JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Reports Section -->
+      <div id="section-reports" style="display:none;">
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">تعداد رزروها به تفکیک ماه</h6>
+              <canvas id="reportReservationsByMonth" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">درآمد کل به تفکیک ماه</h6>
+              <canvas id="reportIncomeByMonth" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">تعداد رزروهای انجام شده و لغو شده</h6>
+              <canvas id="reportReservationsStatus" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">مقایسه درآمد سالن‌ها</h6>
+              <canvas id="reportIncomeBySalon" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">میانگین مبلغ هر رزرو</h6>
+              <canvas id="reportAvgReservationAmount" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">تعداد مشتریان جدید در هر ماه</h6>
+              <canvas id="reportNewCustomers" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">سهم هر سالن از کل رزروها</h6>
+              <canvas id="reportSalonShare" height="180"></canvas>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="chart-container">
+              <h6 class="mb-3">روند رشد درآمد (تجمعی)</h6>
+              <canvas id="reportCumulativeIncome" height="180"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Settings Section -->
+      <div id="section-settings" style="display:none;">
+        <div class="chart-container">
+          <h5 class="mb-3">تنظیمات پنل</h5>
+          <p>در این بخش می‌توانید تنظیمات مربوط به پنل مدیریت را انجام دهید.</p>
+        </div>
+      </div>
+      <!-- Logout Section -->
+      <div id="section-logout" style="display:none;">
+        <div class="chart-container text-center">
+          <h5 class="mb-3">خروج از پنل</h5>
+          <p>آیا مطمئن هستید که می‌خواهید خارج شوید؟</p>
+          <button class="btn btn-danger">خروج</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script>
+    // داده نمونه برای جدول‌ها و نمودارها
+    const users = [
+      { name: 'علی رضایی', type: 'مدیر', national: '1234567890', phone: '09120000001', salon: 'سالن آرایش گلها' },
+      { name: 'مریم احمدی', type: 'مشتری', national: '2345678901', phone: '09120000002', salon: 'سالن آرایش گلها' },
+      { name: 'سارا محمدی', type: 'مشتری', national: '3456789012', phone: '09120000003', salon: 'سالن زیبایی یاس' },
+      { name: 'رضا کریمی', type: 'مدیر', national: '4567890123', phone: '09120000004', salon: 'سالن زیبایی یاس' },
+    ];
+    const salons = [
+      { name: 'سالن آرایش گلها', manager: 'علی رضایی', phone: '02112345678', address: 'تهران، خیابان ولیعصر' },
+      { name: 'سالن زیبایی یاس', manager: 'رضا کریمی', phone: '02187654321', address: 'تهران، خیابان انقلاب' },
+    ];
+    const reservations = [
+      { customer: 'مریم احمدی', salon: 'سالن آرایش گلها', date: '1403/04/10', time: '15:00', amount: 500000, status: 'در صف' },
+      { customer: 'سارا محمدی', salon: 'سالن زیبایی یاس', date: '1403/04/11', time: '17:00', amount: 700000, status: 'رزرو شده' },
+      { customer: 'مریم احمدی', salon: 'سالن آرایش گلها', date: '1403/04/12', time: '13:00', amount: 400000, status: 'رزرو شده' },
+    ];
+    // مقداردهی اولیه کارت‌ها
+    $(function() {
+      $('#totalMembers').text(users.length);
+      $('#totalCustomers').text(users.filter(u => u.type === 'مشتری').length);
+      $('#totalManagers').text(users.filter(u => u.type === 'مدیر').length);
+      $('#totalSalons').text(salons.length);
+      // جدول کاربران
+      users.forEach(u => {
+        $('#usersTableBody').append(`<tr><td>${u.name}</td><td>${u.type}</td><td>${u.national}</td><td>${u.phone}</td><td>${u.salon}</td><td><button class='btn btn-sm btn-outline-primary'>ویرایش</button></td></tr>`);
+      });
+      // جدول سالن‌ها
+      salons.forEach(s => {
+        $('#salonsTableBody').append(`<tr><td>${s.name}</td><td>${s.manager}</td><td>${s.phone}</td><td>${s.address}</td><td><button class='btn btn-sm btn-outline-primary'>ویرایش</button></td></tr>`);
+      });
+      // جایگزینی مقداردهی جدول رزروها با تقسیم داده‌ها به دو جدول
+      // جدول رزروها
+      const pending = reservations.filter(r => r.status !== 'رزرو شده');
+      const done = reservations.filter(r => r.status === 'رزرو شده');
+      $('#pendingReservationsBody').empty();
+      pending.forEach(r => {
+        $('#pendingReservationsBody').append(`<tr><td>${r.customer}</td><td>${r.salon}</td><td>${r.date}</td><td>${r.time}</td><td>${r.amount.toLocaleString()}</td><td>${r.status}</td><td><button class='btn btn-sm btn-outline-primary'>ویرایش</button></td></tr>`);
+      });
+      $('#doneReservationsBody').empty();
+      done.forEach(r => {
+        $('#doneReservationsBody').append(`<tr><td>${r.customer}</td><td>${r.salon}</td><td>${r.date}</td><td>${r.time}</td><td>${r.amount.toLocaleString()}</td><td>${r.status}</td><td><button class='btn btn-sm btn-outline-primary'>ویرایش</button></td></tr>`);
+      });
+    });
+    // سوییچ بین بخش‌ها
+    $('#sidebarMenu .nav-link').on('click', function(e) {
+      e.preventDefault();
+      $('#sidebarMenu .nav-link').removeClass('active');
+      $(this).addClass('active');
+      const section = $(this).data('section');
+      $('[id^=section-]').hide();
+      $(`#section-${section}`).show();
+    });
+    // نمودارها
+    $(function() {
+      // داده نمونه برای نمودار اعضا، مشتریان، مدیران
+      const membersChartRawData = [
+        { date: '1403-04-05', members: 10, customers: 6, managers: 4 },
+        { date: '1403-04-06', members: 12, customers: 7, managers: 5 },
+        { date: '1403-04-07', members: 14, customers: 8, managers: 6 },
+        { date: '1403-04-08', members: 15, customers: 9, managers: 6 },
+        { date: '1403-04-09', members: 16, customers: 10, managers: 6 },
+        { date: '1403-04-10', members: users.length, customers: users.filter(u=>u.type==='مشتری').length, managers: users.filter(u=>u.type==='مدیر').length },
+      ];
+
+      let membersChartInstance = null;
+
+      function renderMembersChart(data) {
+        const labels = data.map(d => d.date.replace(/-/g, '/'));
+        const members = data.map(d => d.members);
+        const customers = data.map(d => d.customers);
+        const managers = data.map(d => d.managers);
+        const ctx = document.getElementById('membersChart').getContext('2d');
+        if (membersChartInstance) membersChartInstance.destroy();
+        membersChartInstance = new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [
+              { label: 'اعضا', data: members, borderColor: '#007bff', fill: false },
+              { label: 'مشتریان', data: customers, borderColor: '#28a745', fill: false },
+              { label: 'مدیران', data: managers, borderColor: '#ffc107', fill: false },
+            ]
+          },
+          options: { responsive: true, plugins: { legend: { display: true, position: 'top' } } }
+        });
+      }
+
+      // مقداردهی اولیه
+      renderMembersChart(membersChartRawData);
+
+      // مقداردهی flatpickr برای ورودی‌های تاریخ
+      flatpickr("#fromDate", {
+        dateFormat: "Y/m/d",
+        locale: "fa",
+        allowInput: true,
+        theme: "material_blue"
+      });
+      flatpickr("#toDate", {
+        dateFormat: "Y/m/d",
+        locale: "fa",
+        allowInput: true,
+        theme: "material_blue"
+      });
+
+      // فیلتر و بروزرسانی نمودار اعضا بر اساس بازه تاریخ
+      $('#filterMembersChart').on('click', function() {
+        const from = $('#fromDate').val();
+        const to = $('#toDate').val();
+        function dateToNum(d) { return parseInt(d.replace(/\//g, '')); }
+        const filtered = membersChartRawData.filter(item => {
+          const n = dateToNum(item.date.replace(/-/g, '/'));
+          return (!from || n >= dateToNum(from)) && (!to || n <= dateToNum(to));
+        });
+        renderMembersChart(filtered);
+      });
+
+      // مشتریان در صف
+      new Chart(document.getElementById('queueChart'), {
+        type: 'bar',
+        data: {
+          labels: ['1403/04/10','1403/04/11','1403/04/12'],
+          datasets: [{ label: 'در صف', data: [1,0,0], backgroundColor: '#17a2b8' }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                stepSize: 1,
+                precision: 0
+              }
+            }
+          }
+        }
+      });
+      // رزروهای انجام شده
+      new Chart(document.getElementById('reservationsChart'), {
+        type: 'line',
+        data: {
+          labels: ['1403/04/10','1403/04/11','1403/04/12'],
+          datasets: [{ label: 'رزروها', data: [1,1,1], borderColor: '#dc3545', fill: false }]
+        },
+        options: { responsive: true, plugins: { legend: { display: false } } }
+      });
+      // مبالغ رزروهای آینده
+      new Chart(document.getElementById('amountChart'), {
+        type: 'bar',
+        data: {
+          labels: ['1403/04/10', '1403/04/11', '1403/04/12', '1403/04/13', '1403/04/14'],
+          datasets: [{ 
+            label: 'مبلغ رزرو (تومان)', 
+            data: [500000, 700000, 400000, 600000, 800000], 
+            backgroundColor: '#007bff',
+            borderColor: '#0056b3',
+            borderWidth: 1
+          }]
+        },
+        options: { 
+          responsive: true, 
+          plugins: { 
+            legend: { display: true, position: 'top' } 
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                callback: function(value) {
+                  return value.toLocaleString() + ' تومان';
+                }
+              }
+            }
+          }
+        }
+      });
+      
+      // نمودار مبالغ رزروهای انجام شده و جمع کل
+      // داده‌های نمودار میله‌ای (مبالغ روزانه)
+      const completedAmounts = [300000, 450000, 200000, 350000, 550000, 400000, 600000];
+      const dates = ['1403/04/08', '1403/04/09', '1403/04/10', '1403/04/11', '1403/04/12', '1403/04/13', '1403/04/14'];
+      
+      // محاسبه جمع تجمعی از همان داده‌های نمودار میله‌ای
+      // مثال: 300000, 750000, 950000, 1300000, 1850000, 2250000, 2850000
+      const cumulativeAmounts = [];
+      let sum = 0;
+      completedAmounts.forEach(amount => {
+        sum += amount;
+        cumulativeAmounts.push(sum);
+      });
+      
+      new Chart(document.getElementById('completedAmountChart'), {
+        type: 'bar',
+        data: {
+          labels: dates,
+          datasets: [
+            {
+              label: 'مبلغ رزرو (تومان)',
+              data: completedAmounts,
+              backgroundColor: '#28a745',
+              borderColor: '#1e7e34',
+              borderWidth: 1,
+              yAxisID: 'y'
+            },
+            {
+              label: 'جمع کل (تومان)',
+              data: cumulativeAmounts,
+              type: 'line',
+              borderColor: '#dc3545',
+              backgroundColor: 'rgba(220, 53, 69, 0.1)',
+              borderWidth: 3,
+              fill: false,
+              yAxisID: 'y1'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          interaction: {
+            mode: 'index',
+            intersect: false,
+          },
+          plugins: {
+            legend: {
+              display: true,
+              position: 'top'
+            }
+          },
+          scales: {
+            x: {
+              display: true,
+              title: {
+                display: true,
+                text: 'تاریخ'
+              }
+            },
+            y: {
+              type: 'linear',
+              display: true,
+              position: 'left',
+              title: {
+                display: true,
+                text: 'مبلغ رزرو (تومان)'
+              },
+              beginAtZero: true,
+              ticks: {
+                callback: function(value) {
+                  return value.toLocaleString() + ' تومان';
+                }
+              }
+            },
+            y1: {
+              type: 'linear',
+              display: true,
+              position: 'right',
+              title: {
+                display: true,
+                text: 'جمع کل (تومان)'
+              },
+              beginAtZero: true,
+              grid: {
+                drawOnChartArea: false,
+              },
+              ticks: {
+                callback: function(value) {
+                  return value.toLocaleString() + ' تومان';
+                }
+              }
+            }
+          }
+        }
+      });
+      
+      // گزارشات آماری (جدید)
+      new Chart(document.getElementById('reportReservationsByMonth'), {
+        type: 'bar',
+        data: {
+          labels: ['فروردین','اردیبهشت','خرداد','تیر'],
+          datasets: [
+            { label: 'تعداد رزرو', data: [12,18,9,15], backgroundColor: '#17a2b8' }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: false } } }
+      });
+      new Chart(document.getElementById('reportIncomeByMonth'), {
+        type: 'line',
+        data: {
+          labels: ['فروردین','اردیبهشت','خرداد','تیر'],
+          datasets: [
+            { label: 'درآمد (میلیون تومان)', data: [6,8,4,7], borderColor: '#28a745', backgroundColor: 'rgba(40,167,69,0.1)', fill: true }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: true, position: 'top' } } }
+      });
+      new Chart(document.getElementById('reportReservationsStatus'), {
+        type: 'bar',
+        data: {
+          labels: ['فروردین','اردیبهشت','خرداد','تیر'],
+          datasets: [
+            { label: 'انجام شده', data: [10,15,7,12], backgroundColor: '#007bff' },
+            { label: 'لغو شده', data: [2,3,2,3], backgroundColor: '#dc3545' }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: true, position: 'top' } } }
+      });
+      new Chart(document.getElementById('reportIncomeBySalon'), {
+        type: 'bar',
+        data: {
+          labels: ['سالن آرایش گلها','سالن زیبایی یاس'],
+          datasets: [
+            { label: 'درآمد (میلیون تومان)', data: [12,9], backgroundColor: ['#ffc107','#17a2b8'] }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: false } } }
+      });
+      new Chart(document.getElementById('reportAvgReservationAmount'), {
+        type: 'line',
+        data: {
+          labels: ['فروردین','اردیبهشت','خرداد','تیر'],
+          datasets: [
+            { label: 'میانگین مبلغ (هزار تومان)', data: [500,444,444,466], borderColor: '#6f42c1', backgroundColor: 'rgba(111,66,193,0.1)', fill: true }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: true, position: 'top' } } }
+      });
+      new Chart(document.getElementById('reportNewCustomers'), {
+        type: 'bar',
+        data: {
+          labels: ['فروردین','اردیبهشت','خرداد','تیر'],
+          datasets: [
+            { label: 'مشتریان جدید', data: [4,6,2,5], backgroundColor: '#20c997' }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: false } } }
+      });
+      new Chart(document.getElementById('reportSalonShare'), {
+        type: 'pie',
+        data: {
+          labels: ['سالن آرایش گلها','سالن زیبایی یاس'],
+          datasets: [
+            { label: 'سهم رزرو', data: [20,15], backgroundColor: ['#ffc107','#17a2b8'] }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: true, position: 'top' } } }
+      });
+      new Chart(document.getElementById('reportCumulativeIncome'), {
+        type: 'line',
+        data: {
+          labels: ['فروردین','اردیبهشت','خرداد','تیر'],
+          datasets: [
+            { label: 'درآمد تجمعی (میلیون تومان)', data: [6,14,18,25], borderColor: '#fd7e14', backgroundColor: 'rgba(253,126,20,0.1)', fill: true }
+          ]
+        },
+        options: { responsive: true, plugins: { legend: { display: true, position: 'top' } } }
+      });
+    });
+    // جستجو
+    $('#searchBtn').on('click', function() {
+      const query = $('#searchAll').val().trim();
+      // فیلتر کاربران
+      const filtered = users.filter(u =>
+        query === '' ||
+        u.salon.includes(query) ||
+        u.name.includes(query) ||
+        u.national.includes(query)
+      );
+      $('#usersTableBody').empty();
+      filtered.forEach(u => {
+        $('#usersTableBody').append(`<tr><td>${u.name}</td><td>${u.type}</td><td>${u.national}</td><td>${u.phone}</td><td>${u.salon}</td><td><button class='btn btn-sm btn-outline-primary'>ویرایش</button></td></tr>`);
+      });
+      // نمایش بخش کاربران
+      $('#sidebarMenu .nav-link').removeClass('active');
+      $('#sidebarMenu .nav-link[data-section="users"]').addClass('active');
+      $('[id^=section-]').hide();
+      $('#section-users').show();
+    });
+    $(function() {
+      // حذف مقداردهی flatpickr برای #fromDate و #toDate
+    });
+    // فعال‌سازی DataTables برای هر جدول پس از مقداردهی داده‌ها
+    const pendingTable = $('#pendingReservationsTable').DataTable({
+        language: {url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/fa.json'},
+        searching: false,
+        lengthChange: false,
+        info: false,
+        pageLength: 10,
+        dom: 'rtip'
+    });
+    
+    const completedTable = $('#doneReservationsTable').DataTable({
+        language: {url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/fa.json'},
+        searching: false,
+        lengthChange: false,
+        info: false,
+        pageLength: 10,
+        dom: 'rtip'
+    });
+
+    // اتصال جستجوی سفارشی به DataTables
+    $('#searchPending').on('keyup', function() {
+        pendingTable.search(this.value).draw();
+    });
+    
+    $('#searchCompleted').on('keyup', function() {
+        completedTable.search(this.value).draw();
+    });
+
+    // اتصال انتخاب تعداد نمایش به DataTables
+    $('#lengthPending').on('change', function() {
+        pendingTable.page.len(parseInt(this.value)).draw();
+    });
+    
+    $('#lengthCompleted').on('change', function() {
+        completedTable.page.len(parseInt(this.value)).draw();
+    });
+  </script>
+</body>
+</html> 

@@ -1,0 +1,3311 @@
+2025-08-29T11:34:33+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:40:09+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:77
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(77): mysqli_prepare(Object(mysqli), 'SELECT sample_i...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 77
+)
+
+2025-08-29T11:46:43+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:77
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(77): mysqli_prepare(Object(mysqli), 'SELECT sample_i...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 77
+)
+
+2025-08-29T11:47:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:47:41+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:48:51+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:48:54+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:49:24+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:49:27+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:50:47+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:40
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(40): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 40
+)
+
+2025-08-29T11:52:32+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:52:36+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T11:54:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:00:07+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: Unknown database 'your_database_name' in C:\wamp64\www\reservation salon 13\Download-Version\database.php:23
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\database.php(23): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'your_database_n...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\database.php(35): get_db()
+#2 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(4): require_once('C:\\wamp64\\www\\r...')
+#3 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#4 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\database.php
+    [line] => 23
+)
+
+2025-08-29T12:00:10+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: Unknown database 'your_database_name' in C:\wamp64\www\reservation salon 13\Download-Version\database.php:23
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\database.php(23): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'your_database_n...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\database.php(35): get_db()
+#2 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(4): require_once('C:\\wamp64\\www\\r...')
+#3 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#4 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\database.php
+    [line] => 23
+)
+
+2025-08-29T12:00:37+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: Unknown database 'your_database_name' in C:\wamp64\www\reservation salon 13\Download-Version\database.php:23
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\database.php(23): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'your_database_n...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\database.php(35): get_db()
+#2 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(4): require_once('C:\\wamp64\\www\\r...')
+#3 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#4 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\database.php
+    [line] => 23
+)
+
+2025-08-29T12:00:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: Unknown database 'your_database_name' in C:\wamp64\www\reservation salon 13\Download-Version\database.php:23
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\database.php(23): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'your_database_n...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\database.php(35): get_db()
+#2 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(4): require_once('C:\\wamp64\\www\\r...')
+#3 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#4 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\database.php
+    [line] => 23
+)
+
+2025-08-29T12:00:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught mysqli_sql_exception: Unknown database 'your_database_name' in C:\wamp64\www\reservation salon 13\Download-Version\database.php:23
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\database.php(23): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'your_database_n...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\database.php(35): get_db()
+#2 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(4): require_once('C:\\wamp64\\www\\r...')
+#3 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#4 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\database.php
+    [line] => 23
+)
+
+2025-08-29T12:03:07+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:03:09+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:04:23+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:04:26+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:06:07+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:06:09+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:06:34+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-29T12:06:37+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T07:57:01+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T07:57:30+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T07:57:33+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T07:57:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T07:57:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T07:57:40+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:02:53+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:19:54+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:19:58+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:03+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:04+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:05+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:05+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:05+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:05+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:31:06+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:23+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:25+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:25+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:25+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:25+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:25+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:26+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:26+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:43:27+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:49:36+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T08:49:37+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php:36
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php(36): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(998): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_portfolio.php
+    [line] => 36
+)
+
+2025-08-30T16:42:34+00:00 PHP ERROR: [2] Undefined variable $conn in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php on line 21
+2025-08-30T16:42:34+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(21): mysqli_prepare(NULL, 'SELECT * FROM m...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php
+    [line] => 21
+)
+
+2025-08-30T16:45:24+00:00 PHP ERROR: [2] Undefined variable $conn in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php on line 21
+2025-08-30T16:45:24+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(21): mysqli_prepare(NULL, 'SELECT * FROM m...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php
+    [line] => 21
+)
+
+2025-08-30T16:45:26+00:00 PHP ERROR: [2] Undefined variable $conn in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php on line 21
+2025-08-30T16:45:26+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(21): mysqli_prepare(NULL, 'SELECT * FROM m...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(472): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php
+    [line] => 21
+)
+
+2025-08-30T17:03:47+00:00 PHP ERROR: [2] Undefined variable $conn in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php on line 21
+2025-08-30T17:03:47+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php(21): mysqli_prepare(NULL, 'SELECT * FROM m...')
+#1 C:\wamp64\www\reservation salon 13\Download-Version\manager_profile.php(473): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 13\Download-Version\tbl_mp_personal.php
+    [line] => 21
+)
+
+2025-08-30T18:58:10+00:00 PHP ERROR: [2] include(tbl_mp_salonpics.php): Failed to open stream: No such file or directory in C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php on line 1056
+2025-08-30T18:58:10+00:00 PHP ERROR: [2] include(): Failed opening 'tbl_mp_salonpics.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php on line 1056
+2025-08-30T18:58:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => include(): Failed opening 'tbl_mp_salonpics.php' for inclusion (include_path='.;C:\php\pear')
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php
+    [line] => 1056
+)
+
+2025-08-30T19:47:30+00:00 PHP ERROR: [2] Undefined array key "salon_title" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:47:30+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:47:30+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 48
+2025-08-30T19:47:30+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 48
+)
+
+2025-08-30T19:48:20+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:48:20+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T19:48:24+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:48:24+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T19:50:07+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:50:07+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T19:53:49+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:53:49+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T19:53:53+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T19:53:53+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T19:54:17+00:00 PHP ERROR: [8192] trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\database.php on line 42
+2025-08-30T19:54:17+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => trim(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 42
+)
+
+2025-08-30T19:56:28+00:00 PHP ERROR: [8192] trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\database.php on line 42
+2025-08-30T19:56:28+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => trim(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 42
+)
+
+2025-08-30T19:57:24+00:00 PHP ERROR: [8192] trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\database.php on line 42
+2025-08-30T19:57:24+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => trim(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 42
+)
+
+2025-08-30T20:00:00+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:00:00+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:01:04+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:01:04+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:01:39+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:01:39+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:02:00+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:02:00+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:03:43+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:03:43+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:03:49+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:03:49+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:04:08+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:04:08+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:08:48+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:08:48+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-30T20:08:49+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php on line 47
+2025-08-30T20:08:49+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_salonpics.php
+    [line] => 47
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:16+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:16+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:17+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:17+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:17+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:17+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:08:17+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php on line 9
+2025-08-31T15:08:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_hours.php
+    [line] => 9
+)
+
+2025-08-31T15:14:37+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:37+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:37+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:38+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:39+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-08-31T15:14:44+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_prepare(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php:29
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php(29): mysqli_prepare(NULL, 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(893): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_option.php
+    [line] => 29
+)
+
+2025-09-01T10:06:27+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 14\Download-Version\database.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\database.php(21): mysqli_query(Object(mysqli), 'SELECT 1')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_portfolio.php(15): db_connect()
+#2 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(1034): include('C:\\wamp64\\www\\r...')
+#3 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 21
+)
+
+2025-09-01T10:06:59+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 14\Download-Version\database.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\database.php(21): mysqli_query(Object(mysqli), 'SELECT 1')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_portfolio.php(15): db_connect()
+#2 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(1034): include('C:\\wamp64\\www\\r...')
+#3 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 21
+)
+
+2025-09-01T10:07:05+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 14\Download-Version\database.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\database.php(21): mysqli_query(Object(mysqli), 'SELECT 1')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_portfolio.php(15): db_connect()
+#2 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(1034): include('C:\\wamp64\\www\\r...')
+#3 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 21
+)
+
+2025-09-01T10:07:34+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 14\Download-Version\database.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\database.php(21): mysqli_query(Object(mysqli), 'SELECT 1')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_portfolio.php(15): db_connect()
+#2 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(1034): include('C:\\wamp64\\www\\r...')
+#3 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 21
+)
+
+2025-09-01T10:07:49+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 14\Download-Version\database.php:21
+Stack trace:
+#0 C:\wamp64\www\reservation salon 14\Download-Version\database.php(21): mysqli_query(Object(mysqli), 'SELECT 1')
+#1 C:\wamp64\www\reservation salon 14\Download-Version\tbl_mp_portfolio.php(15): db_connect()
+#2 C:\wamp64\www\reservation salon 14\Download-Version\manager_profile.php(1034): include('C:\\wamp64\\www\\r...')
+#3 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 14\Download-Version\database.php
+    [line] => 21
+)
+
+2025-09-09T18:30:28+00:00 PHP ERROR: [2] Undefined variable $conn in C:\wamp64\www\reservation salon 16\Download-Version\manager_profile.php on line 55
+2025-09-09T18:30:28+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_close(): Argument #1 ($mysql) must be of type mysqli, null given in C:\wamp64\www\reservation salon 16\Download-Version\manager_profile.php:55
+Stack trace:
+#0 C:\wamp64\www\reservation salon 16\Download-Version\manager_profile.php(55): mysqli_close(NULL)
+#1 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 16\Download-Version\manager_profile.php
+    [line] => 55
+)
+
+2025-09-11T15:03:01+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php on line 62
+2025-09-11T15:03:01+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php on line 63
+2025-09-11T15:03:01+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php
+    [line] => 63
+)
+
+2025-09-11T15:03:39+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php on line 62
+2025-09-11T15:03:39+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php on line 63
+2025-09-11T15:03:39+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php
+    [line] => 63
+)
+
+2025-09-11T15:04:01+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php on line 62
+2025-09-11T15:04:01+00:00 PHP ERROR: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php on line 63
+2025-09-11T15:04:01+00:00 SHUTDOWN: Array
+(
+    [type] => 8192
+    [message] => htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+    [file] => C:\wamp64\www\reservation salon 18\Download-Version\tbl_mp_service.php
+    [line] => 63
+)
+
+2025-09-14T19:08:23+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_portfolio.php:27
+Stack trace:
+#0 C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_portfolio.php(27): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 19\Download-Version\manager_profile.php(1041): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_portfolio.php
+    [line] => 27
+)
+
+2025-09-14T19:08:47+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: mysqli object is already closed in C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_portfolio.php:27
+Stack trace:
+#0 C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_portfolio.php(27): mysqli_prepare(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\wamp64\www\reservation salon 19\Download-Version\manager_profile.php(1041): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_portfolio.php
+    [line] => 27
+)
+
+2025-09-14T19:29:17+00:00 PHP ERROR: [2] Undefined variable $s in C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_hours.php on line 131
+2025-09-14T19:29:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined variable $s
+    [file] => C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_hours.php
+    [line] => 131
+)
+
+2025-09-14T19:30:35+00:00 PHP ERROR: [2] Undefined variable $s in C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_hours.php on line 134
+2025-09-14T19:30:35+00:00 SHUTDOWN: Array
+(
+    [type] => 1
+    [message] => Uncaught TypeError: mysqli_stmt_get_result(): Argument #1 ($statement) must be of type mysqli_stmt, null given in C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_hours.php:134
+Stack trace:
+#0 C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_hours.php(134): mysqli_stmt_get_result(NULL)
+#1 C:\wamp64\www\reservation salon 19\Download-Version\manager_profile.php(1015): include('C:\\wamp64\\www\\r...')
+#2 {main}
+  thrown
+    [file] => C:\wamp64\www\reservation salon 19\Download-Version\tbl_mp_hours.php
+    [line] => 134
+)
+
+2025-09-27T17:52:43+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-27T17:52:43+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-27T17:54:15+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-27T17:54:15+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-27T17:55:43+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-27T17:55:43+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-27T17:57:37+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-27T17:57:37+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-27T18:00:37+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-27T18:00:37+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-28T19:24:33+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-28T19:24:33+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-28T19:29:57+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-28T19:29:57+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-28T19:30:04+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-28T19:30:04+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-28T19:30:45+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-28T19:30:45+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-09-28T19:31:01+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php on line 19
+2025-09-28T19:31:01+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 20\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T06:21:45+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T06:21:45+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T06:26:04+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T06:26:04+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T06:39:44+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T06:39:44+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T06:39:47+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T06:39:47+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:37:21+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:37:21+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:40:00+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:40:00+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:40:03+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:40:03+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:40:21+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:40:21+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:41:01+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:41:01+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:41:07+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:41:07+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:41:44+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:41:44+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:43:38+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:43:38+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:43:41+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:43:41+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:43:54+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:43:54+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:44:19+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:44:19+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:44:30+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:44:30+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:44:52+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:44:52+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:44:56+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:44:56+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:44:57+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:44:57+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:45:17+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:45:17+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:45:29+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:45:29+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:45:48+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:45:48+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T07:46:00+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T07:46:00+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:03:54+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:03:54+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:04:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:04:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:04:14+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:04:14+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:04:34+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:04:34+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:04:46+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:04:46+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:05:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:05:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:05:21+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:05:21+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:05:34+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:05:34+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:05:37+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:05:37+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:05:47+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:05:47+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:06:05+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:06:05+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:06:22+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:06:22+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:06:34+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:06:34+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:06:49+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:06:49+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:07:08+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:07:08+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:07:15+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:07:15+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:07:29+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:07:29+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:07:44+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:07:44+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:07:49+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:07:49+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:07:57+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:07:57+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:08:06+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:08:06+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:08:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:08:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:08:18+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:08:18+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:08:22+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:08:22+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:08:32+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:08:32+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:08:56+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:08:56+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:04+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:04+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:12+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:12+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:19+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:19+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:26+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:26+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:35+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:35+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:43+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:43+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:49+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:49+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:09:56+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:09:56+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:10:04+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:10:04+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:10:13+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:10:13+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:10:23+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:10:23+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:10:42+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:10:42+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:10:49+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:10:49+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:11:00+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:11:00+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:11:06+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:11:06+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:11:25+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:11:25+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:11:38+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:11:38+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:12:15+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:12:15+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:12:25+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:12:25+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:12:47+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:12:47+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:12:55+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:12:55+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:12:58+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:12:58+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:17:07+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:17:07+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:17:11+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:17:11+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:19:25+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:19:25+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:19:31+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:19:31+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:19:33+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:19:33+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:19:43+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:19:43+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:21:26+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:21:26+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:21:30+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:21:30+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:21:50+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:21:50+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:21:53+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:21:53+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:22:09+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:22:09+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:22:14+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:22:14+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:22:44+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:22:44+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:22:47+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:22:47+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:23:10+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:23:10+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:23:21+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:23:21+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:23:44+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:23:44+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:24:14+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:24:14+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+
+2025-10-19T09:24:20+00:00 PHP ERROR: [2] Undefined array key "salon_id" in C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php on line 19
+2025-10-19T09:24:20+00:00 SHUTDOWN: Array
+(
+    [type] => 2
+    [message] => Undefined array key "salon_id"
+    [file] => C:\wamp64\www\reservation salon 21\Download-Version\tbl_mp_hours.php
+    [line] => 19
+)
+

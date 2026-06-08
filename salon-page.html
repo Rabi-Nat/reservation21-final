@@ -1,0 +1,1560 @@
+<!doctype html>
+<html class="no-js" lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>B.B - Spa Beauty & Wellness Salon HTML5 Template - Home Two</title>
+    <meta name="author" content="Vecuro">
+    <meta name="description" content="B.B - Spa Beauty & Wellness Salon HTML5 Template">
+    <meta name="keywords" content="beauty, beauty salon, beauty shop, beauty spa, cosmetics, hairdresser, health, lifestyle, massage, salon, spa, spa booking, wellness, wellness template, yoga">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/app.min.css"> -->
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Layerslider -->
+    <link rel="stylesheet" href="assets/css/layerslider.min.css">
+    <!-- jQuery DatePicker -->
+    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        
+            /* استایل جدید برای بخش خدمات و تقویم کنار هم */
+        .services-calendar-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 0px;
+        }
+
+        .salon-services {
+            flex: 1 1 45%;
+            min-width: 300px;
+            background: rgba(255,255,255,0.95);
+            color: var(--title-color);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .services-container2 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .service-item {
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+
+        .service-checkbox {
+            position: relative;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .service-checkbox input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            margin: 0;
+            top: 12px;
+            right: 10px;
+            z-index: 2;
+        }
+
+        .service-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 10px 10px 35px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: #f5f5f5;
+            width: 100%;
+            position: relative;
+            gap: 15px;
+        }
+
+        .service-row::before {
+            content: "";
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            border: 2px solid var(--theme-color);
+            border-radius: 3px;
+            background: #fff;
+            transition: all 0.2s;
+        }
+
+        .service-checkbox input[type="checkbox"]:checked + .service-row::before {
+            background: var(--theme-color);
+            border-color: var(--theme-color);
+        }
+
+        .service-checkbox input[type="checkbox"]:checked + .service-row::after {
+            content: "✓";
+            position: absolute;
+            right: 13px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .service-name {
+            flex: 2;
+            font-weight: 500;
+            text-align: right;
+            color: var(--theme-color);
+        }
+
+        .service-duration, .service-price {
+            flex: 1;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+
+        .service-duration::before {
+            content: "⏱️ ";
+            margin-left: 3px;
+        }
+
+        .service-price::before {
+            content: "💰 ";
+            margin-left: 3px;
+        }
+
+        /* حالت hover */
+        .service-row:hover {
+            background: #f9f6f3;
+            border-color: var(--theme-color);
+        }
+        .services-summary {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 1px solid var(--border-color);
+        }
+
+        .services-summary p {
+            margin: 5px 0;
+            text-align: right;
+        }
+        /* استایل تقویم */
+        .reservation-calendar {
+            flex: 1 1 45%;
+            min-width: 300px;
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .calendar-header {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+
+        .calendar-header .header {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .calendar-header select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            font-size: 14px;
+            width: auto;
+            max-width: 100%;
+            background: #fff;
+            color: var(--title-color);
+        }
+
+        .calendar-header .today-header {
+            margin: 5px 0;
+            font-weight: bold;
+            color: var(--theme-color);
+            font-size: 15px;
+        }
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 8px;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        .weekday {
+            padding: 8px;
+            font-weight: bold;
+            background: var(--theme-color);
+            font-size: 12px;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .day {
+            padding: 10px;
+            color: #333;
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all 0.2s;
+            border-radius: 5px;
+            font-size: 13px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .day:hover {
+            background: var(--theme-color);
+            color: #fff;
+        }
+
+        .today {
+            background: rgb(241, 150, 97);
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .selected {
+            background: var(--theme-color);
+            color: #fff;
+        }
+
+        .disabled {
+            color: #ccc;
+            cursor: not-allowed;
+            background: #f9f9f9;
+        }
+
+        .time-section {
+            margin: 20px 0;
+            width: 100%;
+            
+        }
+
+        .time-type {
+            display: flex;
+            justify-content: center;
+            
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .time-type button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            transition: all 0.3s;
+            color: var(--theme-color);
+        }
+
+        .time-type button.active {
+            background: var(--theme-color);
+            color: #fff;
+        }
+
+        .hour-selector {
+            margin-top: 15px;
+            width: 100%;
+            
+        }
+
+        .hour-selector select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 16px;
+            text-align: center;
+            background: #fff;
+            color: var(--title-color);
+        }
+
+        .reserve-btn {
+            background: var(--theme-color);
+            color: #fff;
+            padding: 12px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            width: 100%;
+            transition: background-color 0.3s;
+            font-weight: 500;
+        }
+
+        .reserve-btn:hover {
+            background: #7a4328;
+        }
+
+        /* استایل بخش امکانات سالن */
+        .salon-facilities {
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            color: #282029;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .facilities-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        
+        }
+
+        .facility-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        .facility-icon {
+            color: #4CAF50;
+            font-size: 18px;
+        }
+
+        /*استایل بخش نمونه کارها در جزییات سالن  */
+        /* استایل اسلایدر نمونه کارها */
+        .works-slider {
+            position: relative;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+
+        .slider-container {
+            display: flex;
+            transition: transform 0.5s ease;
+            gap: 5px;
+        }
+
+        .slider-container img {
+            min-width: calc(16.666% - 5px);
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .slider-prev, .slider-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            z-index: 10;
+        }
+
+        .slider-prev {
+            right: 10px;
+        }
+
+        .slider-next {
+            left: 10px;
+        }
+
+
+
+        /* رسپانسیو */
+        @media (max-width: 768px) {
+            .salon-header {
+                flex-direction: column;
+            }
+            
+            .services-calendar-container {
+                flex-direction: column;
+            }
+            
+            .salon-services, 
+            .reservation-calendar {
+                flex: 1 1 100%;
+            }
+            
+            .hero {
+                flex-direction: column;
+            }
+            
+            .vertical-nav {
+                width: 100%;
+                padding: 10px 0;
+            }
+            
+            .vertical-nav-links {
+                display: flex;
+                overflow-x: auto;
+            }
+            
+            .vertical-nav-links li {
+                flex: 0 0 auto;
+            }
+            
+            .vertical-nav-links li a {
+                padding: 10px 15px;
+            }
+            
+            .facilities-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+
+
+    <!--==============================
+     Preloader
+  ==============================-->
+    <div class="preloader  ">
+        <button class="vs-btn preloaderCls">Cancel Preloader </button>
+        <div class="preloader-inner">
+            <div class="loader"></div>
+        </div>
+    </div><svg viewBox="0 0 150 150" class="svg-hidden">
+        <path id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+    </svg><!--==============================
+    Mobile Menu
+  ============================== -->
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area text-center">
+            <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/logo.svg" alt="B.B"></a>
+            </div>
+            <div class="vs-mobile-menu">
+                <ul>
+                    <li class="menu-item-has-children">
+                        <a href="index.html">Demos</a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">Demo Style 1</a></li>
+                            <li><a href="index-2.html">Demo Style 2</a></li>
+                            <li><a href="index-3.html">Demo Style 3</a></li>
+                            <li><a href="index-4.html">Demo Style 4</a></li>
+                            <li><a href="index-5.html">Demo Style 5</a></li>
+                            <li><a href="index-6.html">Demo Style 6</a></li>
+                            <li><a href="index-7.html">Demo Style 7<span class="new-label">New</span></a></li>
+                            <li><a href="index-8.html">Demo Style 8<span class="new-label">New</span></a></li>
+                            <li><a href="index-9.html">Demo Style 9<span class="new-label">New</span></a></li>
+                            <li><a href="index-10.html">Demo Style 10<span class="new-label">New</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="match.html">Service</a>
+                        <ul class="sub-menu">
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="service-details.html">Service Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="blog.html">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="blog.html">Blog One</a></li>
+                            <li><a href="blog-2.html">Blog Two</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#">Pages</a>
+                        <ul class="sub-menu">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="shop-details.html">Shop Details</a></li>
+                            <li><a href="gallery.html">Portfolio</a></li>
+                            <li><a href="gallery-details.html">Portfolio Details</a></li>
+                            <li><a href="appointment.html">Appointment</a></li>
+                            <li><a href="price-plan.html">Price Plan</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="error.html">Error Page</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Sidemenu
+============================== -->
+<div class="sidemenu-wrapper d-none d-lg-block  ">
+    <div class="sidemenu-content">
+        <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget  ">
+            <div class="footer-logo">
+                <img src="assets/img/logo/text1.jpeg" alt="logo">
+                <img src="assets/img/logo/logo.jpeg" alt="logo">
+                
+            </div>
+            <div class="info-media1">
+                <div class="media-icon" style="margin-left: 5px;"><i class="fas fa-user"></i></div>
+                <span class="media-label"><a  href="#login"  class="text-inherit"> ورود </a></span>
+            </div>
+            <div class="info-media1">
+                <div class="media-icon" style="margin-left: 5px;"><i class="fas fa-calendar-check"></i></div>
+                <span class="media-label"><a href="register-simple.html.html" class="text-inherit">   ثبت نام </a></span>
+            </div>
+            <div class="info-media1">
+                <div class="media-icon" style="margin-left: 5px;"><i class="fas fa-concierge-bell"></i></div>
+                <span class="media-label"><a href="services.html" class="text-inherit"> خدمات </a></span>
+            </div>
+        </div>
+        <div class="widget  ">
+            <h3 class="widget_title">دسترسی سریع </h3>
+            <div class="recent-post-wrap">
+                <div class="recent-post">
+                    <div class="media-img">
+                        <a href="women-salon.html"><img src="assets/img/service/8.jpg" alt="Blog Image"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">  سالن زیبایی بانوان  </a></h4>
+                        <div class="recent-post-meta">
+                            <a href="blog.html"><i class="fas fa-calendar-alt"></i> انتخاب و رزرو رایگان </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-post">
+                    <div class="media-img">
+                        <a href="men-salon.html"><img src="assets/img/gallery/m1.jpg" alt="Blog Image"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">  سالن زیبایی آقایان  </a></h4>
+                        <div class="recent-post-meta">
+                            <a href="blog.html"><i class="fas fa-calendar-alt"></i> انتخاب و رزرو رایگان </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-post">
+                    <div class="media-img">
+                        <a href="shop.html"><img src="assets/img/service/16.jpg" alt="Blog Image"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">  فروشگاه محصولات  </a></h4>
+                        <div class="recent-post-meta">
+                            <a href="blog.html"><i class="fas fa-shopping-cart"></i>  کیفیت و تضمین  </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-post">
+                    <div class="media-img">
+                        <a href="service.html"><img src="assets/img/service/4.jpg" alt="Blog Image"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="post-title"><a class="text-inherit" href="blog-details.html">  حدمات  </a></h4>
+                        <div class="recent-post-meta">
+                            <a href="blog.html"><i class="fas fa-sort"></i> پوست-مو-رنگ </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--==============================
+    Popup Search Box
+    ============================== -->
+    <div class="popup-search-box d-none d-lg-block  ">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" class="border-theme" placeholder="What are you looking for">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+    <!--==============================
+    Header Area
+    ==============================-->
+    <header class="vs-header header-layout7">
+        <div class="sticky-wrap">
+            <div class="sticky-active">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-auto">
+                            <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </button>
+                            <button class="vs-menu-toggle d-inline-block d-lg-none" type="button"><i class="fal fa-bars"></i></button>
+                            <!-- <div class="header-logo">
+                                <a href="index-7.html"><img src="assets/img/logo.svg" alt="B.B"></a>
+                            </div> -->
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            
+                            <nav class="main-menu menu-style1">
+                                <ul>
+                                    <li class="menu-item-has-children mega-menu-wrap">
+                                        <a href="index.html">تغییر دمو</a>
+                                        <ul class="menu-pages">
+                                            <li>
+                                                <a href="index-7.html">
+                                                    <img src="assets/img/pages/index-7.jpg" alt="image">
+                                                    دمو کلاسیک
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="index-2.html">
+                                                    <img src="assets/img/pages/index-2.jpg" alt="image">
+                                                    دموی مدرن
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-item-has-children">
+                                        <a href="service.html">خدمات</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="service.html">همه خدمات</a></li>
+                                            <li><a href="service-details.html">جزئیات خدمات</a></li>
+                                            <li><a href="service.html">مو </a></li>
+                                            <li><a href="service.html">پوست </a></li>
+                                            <li><a href="service.html">رنگ </a></li>
+                                            <li><a href="service.html">کراتین </a></li>
+                                            <li><a href="service.html">ناخن </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="blog.html">بلاگ</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">بلاگ یک</a></li>
+                                            <li><a href="blog-2.html">بلاگ دو</a></li>
+                                            <li><a href="blog-details.html">جزئیات بلاگ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children mega-menu-wrap">
+                                        <a href="#">صفحات</a>
+                                        <ul class="mega-menu">
+                                            <li><a href="shop.html">لیست صفحه ۱</a>
+                                                <ul>
+                                                    <li><a href="about.html">درباره ما</a></li>
+                                                    <li><a href="blog.html">بلاگ یک</a></li>
+                                                    <li><a href="blog-2.html">بلاگ دو</a></li>
+                                                    <li><a href="blog-details.html">جزئیات بلاگ</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">لیست صفحه ۲</a>
+                                                <ul>
+                                                    <li><a href="appointment.html">رزرو وقت</a></li>
+                                                    <li><a href="price-plan.html">پلن قیمت</a></li>
+                                                    <li><a href="service.html">همه خدمات</a></li>
+                                                    <li><a href="service-details.html">جزئیات خدمات</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">لیست صفحه ۳</a>
+                                                <ul>
+                                                    <li><a href="gallery.html">نمونه کارها</a></li>
+                                                    <li><a href="gallery-details.html">جزئیات نمونه کار</a></li>
+                                                    <li><a href="team.html">تیم</a></li>
+                                                    <li><a href="team-details.html">جزئیات تیم</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">لیست صفحه ۴</a>
+                                                <ul>
+                                                    <li><a href="shop.html">فروشگاه</a></li>
+                                                    <li><a href="shop-details.html">جزئیات فروشگاه</a></li>
+                                                    <li><a href="contact.html">تماس با ما</a></li>
+                                                    <li><a href="error.html">صفحه خطا</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">درباره ما</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">تماس با ما</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-auto d-flex align-items-center gap-4">
+                            <div class="header-auth-buttons" style="display: flex; gap: 10px; margin-left: auto;">
+                                <button class="header-login-btn" onclick="openModal('login')" style="background: #9a563a; color: white; border: none; padding: 8px 15px; border-radius: 5px; font-size: 14px;">
+                                    <i class="fas fa-sign-in-alt"></i> ورود
+                                </button>
+                                <button class="header-register-btn" onclick="window.location.href='register-simple.html'" style="background: #fff; color: #9a563a; border: 1px solid #9a563a; padding: 8px 15px; border-radius: 5px; font-size: 14px;">
+                                    <i class="fas fa-user-plus"></i> ثبت نام
+                                </button>
+                            </div>
+                            <a href="contact.html" class="vs-btn style12 d-none d-xxl-inline-block">دریافت مشاوره</a>
+                            <div class="header-icons">
+                                <a href="#" class="searchBoxTggler"><i class="far fa-search"></i></a>
+                                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!--==============================
+    Hero Area
+    ==============================-->
+
+<!--==============================
+    About Area
+    ==============================-->
+        <section class=" space-extra-top space-bottom">
+            <div class="shape-mockup jump-reverse-img d-none d-xxl-block d-hd-none" data-top="4%" data-left="-3%">
+                <div class="curb-shape1"></div>
+            </div>
+            <div class="shape-mockup jump-img d-none d-lg-block" data-top="6%" data-right="39.2%"><span class="big-letter">A</span></div>
+            <div class="container">
+                <div class="row gx-xl-0">
+                    <div class="col-lg-6 col-xl-7 mb-40 mb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="img-box1" >
+                            <img src="assets/img/gallery/m1.jpg" alt="about">
+                            <!-- <div class="img-1 jump-reverse"><img src="assets/img/shape/shape-2.png" alt=""></div> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 align-self-center wow fadeInUp" data-wow-delay="0.3s">
+                        <span class="sec-subtitle">  <span class="sec-subtext">25 سال</span>تجربه</span>
+                        <h2 class="sec-title" style="display: flex;"> سالن زیبایی مدرن 
+                            <div class="product-rating" style="font-size: 14px; text-align: left;">
+                                <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">5</span> customer rating</span></div>نظر (3)
+                            </div>
+                        </h2> 
+
+                        <div class="media-style1">
+                            <div class="media-body">
+                                <p class="media-text">مدیر سالن : فرید دودول طلا</p>
+                            </div>
+                        </div>
+                        <p class="about-text">آدرس: کردستان - ارومیه -خ شمالی</p>
+                        <p class="about-text" style="font-size: small;">سالن زیبایی گلستان با بیش از 10 سال سابقه در زمینه خدمات زیبایی و آرایشی، آماده ارائه خدمات با کیفیت به شما عزیزان می‌باشد. این سالن با بهره‌گیری از متخصصین مجرب و استفاده از بهترین مواد آرایشی، محیطی آرام و دلنشین را برای شما فراهم آورده است.</p>
+                        <!-- <a href="about.html" class="vs-btn style3">View More</a>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!--==============================
+    Price Plan Area
+    ==============================-->
+    <section class="  " data-bg-src="assets/img/bg/price-bg-1-1.jpg">
+        <div class="shape-mockup jump d-none d-xxl-block" data-right="2%" data-top="8%"><img src="assets/img/shape/leaf-1-1.png" alt="leaf"></div>
+        <div class="container-fluid px-0 hd-container1">
+            <div class="row gx-80 align-items-center">
+                <div class="col space-top  wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="title-area text-center text-xr-start">
+                        <span class="sec-subtitle"> رزرو سالن </span>
+                        <h2 class="sec-title">خدمات و زمان رزرو را انتخاب کنید</h2>
+                    </div>
+                   
+                </div>
+                <!-- بخش خدمات و تقویم کنار هم -->
+                <div class="services-calendar-container">
+                    <!-- بخش خدمات سالن -->
+                    <!-- بخش خدمات سالن -->
+                    <div class="salon-services">
+                        <h2>خدمات سالن</h2>
+                        <p style="text-align: right;">لطفا خدماتی که مایل به دریافت آن هستید را انتخاب کنید:</p>
+                        
+                        <div class="services-container2" id="servicesContainer">
+                            <!-- خدمات به صورت داینامیک در اینجا نمایش داده می‌شوند -->
+                            <div class="service-item">
+                                <div class="service-checkbox">
+                                    <input type="checkbox" onchange="updateServiceSummary()" value="خدمت نمونه 1" id="service-1">
+                                    <label for="service-1" class="service-row">
+                                        <span class="service-name">خدمت نمونه 1</span>
+                                        <span class="service-duration">۳۰ دقیقه</span>
+                                        <span class="service-price">۵۰,۰۰۰ تومان</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="services-summary">
+                            <p>مدت زمان کل: <span id="totalDuration">0</span> دقیقه</p>
+                            <p>هزینه کل: <span id="totalPrice">0</span> تومان (مبلغ حدودی می‌باشد)</p>
+                        </div>
+                    </div>
+
+                    <!-- بخش تقویم رزرو -->
+                    <div class="reservation-calendar">
+                        <div class="calendar-header">
+                            <div class="header">
+                                <select id="year-select"></select>
+                                <select id="month-select"></select>
+                            </div>
+
+                            <div class="today-header" id="today-display"></div>
+                            
+                            <div class="calendar" id="calendar">
+                                <div class="weekday">شنبه</div>
+                                <div class="weekday">یکشنبه</div>
+                                <div class="weekday">دوشنبه</div>
+                                <div class="weekday">سه‌شنبه</div>
+                                <div class="weekday">چهارشنبه</div>
+                                <div class="weekday">پنجشنبه</div>
+                                <div class="weekday">جمعه</div>
+                            </div>
+
+                            <div class="time-section">
+                                <div class="time-type">
+                                    <button id="am-btn">
+                                        <span>☀</span>
+                                        <span>صبح</span>
+                                    </button>
+                                    <button id="pm-btn">
+                                        <span>🌙</span>
+                                        <span>عصر</span>
+                                    </button>
+                                </div>
+                                
+                                <div class="hour-selector">
+                                    <select id="hour-select"></select>
+                                </div>
+                            </div>
+
+                            <button class="reserve-btn" id="reserve-btn">رزرو زمان</button>
+                            <form class="payment-method">
+                                <div class="payment-option">
+                                    <input type="radio" id="online-payment" name="payment" value="online">
+                                    <label for="online-payment">پرداخت آنلاین</label>
+                                </div>
+                                <div class="payment-option">
+                                    <input type="radio" id="cash-payment" name="payment" value="cash" checked>
+                                    <label for="cash-payment">پرداخت در محل</label>
+                                </div>
+                            </form>
+
+                            <!-- <button class="pay-btndisabled" id="pay-btn" disabled>
+                                پرداخت آنلاین
+                            </button> -->
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- بخش امکانات سالن -->
+                <div class="salon-facilities">
+                    <h2>امکانات سالن</h2>
+                    
+                    
+                    <div class="facilities-container" id="facilitiesContainer">
+                        <!-- امکانات سالن به صورت داینامیک در اینجا نمایش داده می‌شوند -->
+                        <div class="facility-item">
+                            <i class="fas fa-check-circle facility-icon"></i>
+                            <span>تهویه مطبوع (کولر/بخاری)</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-check-circle facility-icon"></i>
+                            <span>صندلی کودک</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-check-circle facility-icon"></i>
+                            <span>پارکینگ اختصاصی</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-check-circle facility-icon"></i>
+                            <span>اینترنت رایگان</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-check-circle facility-icon"></i>
+                            <span>اتاق انتظار مجهز</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-check-circle facility-icon"></i>
+                            <span>سرویس بهداشتی</span>
+                        </div>
+                    </div>
+                </div>
+ 
+
+            </div>
+        </div>
+    </section>
+    <!--==============================
+    Team Area
+    ==============================-->
+    <section class=" space-extra-bottom">
+        <div class="container">
+            <div class="title-area text-center wow fadeInUp" data-wow-delay="0.2s">
+                <span class="sec-subtitle"> </span>
+                <h2 class="sec-title"> نمونه کار ها </h2>
+                <div class="sec-shape"><img src="assets/img/shape/sec-shape-1.png" alt="shape"></div>
+            </div>
+            <div class="row vs-carousel" data-arrows="true" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2">
+                <div class="col-xl-3  ">
+                    <div class="team-style1">
+                        <div class="team-img"><img src="assets/img/team/reviews1.jpg" alt="member"></div>  
+                        <h4 class="team-degi">رنگ مو</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3  ">
+                    <div class="team-style1">
+                        <div class="team-img"><img src="assets/img/team/reviews2.jpg" alt="member"></div>  
+                        <h4 class="team-degi">رنگ مو</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3  ">
+                    <div class="team-style1">
+                        <div class="team-img"><img src="assets/img/team/reviews3.jpg" alt="member"></div>  
+                        <h4 class="team-degi">رنگ مو</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3  ">
+                    <div class="team-style1">
+                        <div class="team-img"><img src="assets/img/team/reviews5.jpg" alt="member"></div>  
+                        <h4 class="team-degi">رنگ مو</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3  ">
+                    <div class="team-style1">
+                        <div class="team-img"><img src="assets/img/team/user8-128x128.jpg" alt="member"></div>  
+                        <h4 class="team-degi">رنگ مو</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="  " data-overlay="title" data-opacity="6">
+        <div class="parallax" data-parallax-image="./assets/img/bg/price-bg-1-1.jpg"></div>
+        <div class="container">
+            <div class="row gx-60">
+                <div class="col-M-6  space-extra  fadeInUp" data-wow-delay="0.2s">
+                    <h3 class="h4 text-white mt-n1 mb-4 pb-2" style="text-align: center;" > ساعات کاری سالن </h3>
+                    <div class="table-style2" style="width: 50%; margin: auto;">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>شنبه تا پنجشنبه </th>
+                                    <td>8صبح تا 8 شب </td>
+                                </tr>
+                                <tr>
+                                    <th>جمعه ها </th>
+                                    <td> تعطیل </td>
+                                </tr>
+                                <tr>
+                                    <th>شماره تماس سالن</th>
+                                    <td><a href="tel:+44123456789" class="text-inherit">+44 1234 56789</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Email</th>
+                                    <td><a href="mailto:info@example.com" class="text-inherit">info@example.com</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--==============================
+			Footer Area
+	==============================-->
+    <footer class="footer-wrapper footer-layout2">
+        <div class="footer-top" data-bg-src="assets/img/bg/footer-2-1.png">
+            <form action="#" class="form-style3" >
+                <h2 class="form-title"> کیفیت را با ما تجربه کنید</h2>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="ایمیل خود را جهت دریافت تازه ترین ها وارد کنید">
+                    <button class="vs-btn style5" type="submit">کلیک کنید</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer-logo">  
+            <a href="index-7.html"><img src="assets/img/logo/logo11.jpeg" alt="logo"></a>
+        </div>
+        <div class="footer-number"><a href="tel:+01234567890"> +9844300000</a> - 8صبح تا 5 عصر </div>
+        <div class="copyright-menu">
+            <ul>
+                <li><a href="index.html">صفحه ی اصلی</a></li>
+                <li><a href="service.html">خدمات</a></li>
+                <li><a href="price-plan.html">پلن های ویژه</a></li>
+                <li><a href="blog.html">بلاگ</a></li>
+                <li><a href="shop.html">فروشگاه</a></li>
+                <li><a href="contact.html">تماس </a></li>
+            </ul>
+        </div>
+        <div class="copyright-wrap">
+            <div class="container">
+                <p>
+                    کلیه حقوق این وب‌سایت متعلق به سیستم رزرواسیون آنلاین می‌باشد &copy; 1404
+                    <span class="separator">|</span>
+                    <a href="#">قوانین و مقررات</a>
+                    <span class="separator">|</span>
+                    <a href="#">حریم خصوصی</a>
+                </p>
+            </div>
+        </div>
+    </footer> <!-- Scroll To Top -->
+    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!--==============================
+        All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- <script src="assets/js/app.min.js"></script> -->
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Parallax Scroll -->
+    <script src="assets/js/universal-parallax.min.js"></script>
+    <!-- Wow.js Animation -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- jQuery Datepicker -->
+    <script src="assets/js/jquery.datetimepicker.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Isotope Filter -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+     <!-- JavaScript -->
+     <script>
+                
+        // تغییر عکس اصلی با کلیک روی thumbnail
+        function changeMainImage(thumb) {
+            document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+            thumb.classList.add('active');
+            document.getElementById('mainImage').src = thumb.src;
+        }
+
+        // تبدیل اعداد انگلیسی به فارسی
+        function toPersianNumber(num) {
+            const persianDigits = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+            return num.toString().replace(/\d/g, x => persianDigits[x]);
+        }
+
+        // مدیریت خدمات سالن
+        function initializeServices() {
+            const servicesContainer = document.getElementById('servicesContainer');
+            servicesContainer.innerHTML = '';
+            
+            const salonServices = [
+                {name: 'اصلاح مو', checked: false, duration: 30, price: 200000},
+                {name: 'رنگ مو', checked: false, duration: 90, price: 1500000},
+                {name: 'پدیکور و مانیکور', checked: false, duration: 60, price: 400000},
+                {name: 'واکسینگ (صورت،پا،زیربغل)', checked: false, duration: 30, price: 300000},
+                {name: 'ماسک صورت', checked: false, duration: 45, price: 500000},
+                {name: '*آرایش', checked: false, duration: 60, price: 800000},
+                {name: '*کراتین', checked: false, duration: 120, price: 2000000},
+                {name: '*میکرو بلیندینگ ابرو', checked: false, duration: 90, price: 1500000},
+            ];
+            
+            salonServices.forEach(service => {
+                addService(service.name, service.checked, service.duration, service.price);
+            });
+        }
+
+        function addService(serviceName, isChecked, duration, price) {
+            const serviceId = `service-${Math.random().toString(36).substr(2, 9)}`;
+            const serviceItem = document.createElement('div');
+            serviceItem.className = 'service-item';
+            serviceItem.innerHTML = `
+                <div class="service-checkbox">
+                    <input type="checkbox" ${isChecked ? 'checked' : ''} 
+                            onchange="updateServiceSummary()" 
+                            value="${serviceName}"
+                            id="${serviceId}">
+                    <label for="${serviceId}" class="service-row">
+                        <span class="service-name">${serviceName}</span>
+                        <span class="service-duration">${duration.toLocaleString('fa-IR')} دقیقه</span>
+                        <span class="service-price">${price.toLocaleString('fa-IR')} تومان</span>
+                    </label>
+                </div>
+            `;
+            document.getElementById('servicesContainer').appendChild(serviceItem);
+        }
+        // تابع تبدیل اعداد فارسی به انگلیسی
+        // تابع بهبود یافته برای تبدیل اعداد فارسی به انگلیسی
+        function convertPersianToEnglish(str) {
+            const persianNumbers = [/۰/g, /۱/g, /۲/g, /۳/g, /۴/g, /۵/g, /۶/g, /۷/g, /۸/g, /۹/g];
+            const englishNumbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+            
+            let result = str;
+            for (let i = 0; i < 10; i++) {
+                result = result.replace(persianNumbers[i], englishNumbers[i]);
+            }
+            return result;
+        }
+
+        // تابع محاسبه جمع قیمت و مدت زمان (نسخه کاملاً اصلاح شده)
+        function updateServiceSummary() {
+            let totalDuration = 0;
+            let totalPrice = 0;
+            
+            document.querySelectorAll('.service-checkbox input[type="checkbox"]:checked').forEach(checkbox => {
+                // استخراج مدت زمان
+                const durationText = checkbox.closest('.service-checkbox').querySelector('.service-duration').textContent;
+                const duration = parseInt(convertPersianToEnglish(durationText)) || 0;
+                totalDuration += duration;
+                
+                // استخراج قیمت
+                const priceText = checkbox.closest('.service-checkbox').querySelector('.service-price').textContent;
+                const englishPrice = convertPersianToEnglish(priceText);
+                const priceValue = englishPrice.replace(/[^0-9]/g, '');
+                const price = parseInt(priceValue) || 0;
+                totalPrice += price;
+            });
+            
+            // نمایش مقادیر با فرمت فارسی
+            document.getElementById('totalDuration').textContent = totalDuration.toLocaleString('fa-IR');
+            document.getElementById('totalPrice').textContent = totalPrice.toLocaleString('fa-IR') + ' تومان';
+        }
+        // مدیریت امکانات سالن
+        function initializeFacilities() {
+            const facilitiesContainer = document.getElementById('facilitiesContainer');
+            facilitiesContainer.innerHTML = '';
+            
+            // این لیست امکانات باید از سرور دریافت شود
+            // برای نمونه یک لیست ثابت قرار داده شده
+            const salonFacilities = [
+                'تهویه مطبوع (کولر/بخاری)',
+                'صندلی کودک',
+                'پارکینگ اختصاصی',
+                'اینترنت رایگان',
+                'اتاق انتظار مجهز',
+                'سرویس بهداشتی'
+            ];
+            
+            salonFacilities.forEach(facility => {
+                addFacility(facility);
+            });
+        }
+
+        function addFacility(facilityName) {
+            const facilityItem = document.createElement('div');
+            facilityItem.className = 'facility-item';
+            facilityItem.innerHTML = `
+                <i class="fas fa-check-circle facility-icon"></i>
+                <span>${facilityName}</span>
+            `;
+            document.getElementById('facilitiesContainer').appendChild(facilityItem);
+        }
+
+        // تقویم شمسی
+        function getJalaaliMonthLength(year, month) {
+            if (month <= 6) return 31;
+            if (month <= 11) return 30;
+            return (year - 1395) % 4 === 0 ? 30 : 29;
+        }
+
+        function jalaaliToDateObject(year, month, day) {
+            const gregorian = jalaaliToGregorian(year, month, day);
+            return new Date(gregorian.gy, gregorian.gm - 1, gregorian.gd);
+        }
+
+        function jalaaliToGregorian(jy, jm, jd) {
+            jy += 1595;
+            let days = -355668 + (365 * jy) + (~~(jy / 33) * 8) + ~~((jy % 33 + 3) / 4) + jd +
+                (jm < 7 ? (jm - 1) * 31 : ((jm - 7) * 30) + 186);
+            
+            let gy = 400 * ~~(days / 146097);
+            days %= 146097;
+            if (days > 36524) {
+                gy += 100 * ~~(--days / 36524);
+                days %= 36524;
+                if (days >= 365) days++;
+            }
+            
+            gy += 4 * ~~(days / 1461);
+            days %= 1461;
+            if (days > 365) {
+                gy += ~~((days - 1) / 365);
+                days = (days - 1) % 365;
+            }
+            
+            let gd = days + 1;
+            const sal_a = [0, 31, (gy % 4 === 0 && gy % 100 !== 0) || (gy % 400 === 0) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+            let gm;
+            for (gm = 0; gm < 13; gm++) {
+                let v = sal_a[gm];
+                if (gd <= v) break;
+                gd -= v;
+            }
+            
+            return { gy: gy, gm: gm, gd: gd };
+        }
+
+        function generateTimeSlots(start, end) {
+            const slots = [];
+            for (let hour = start; hour < end; hour++) {
+                slots.push(`${toPersianNumber(hour)}:۰۰`);
+                slots.push(`${toPersianNumber(hour)}:۳۰`);
+            }
+            if (end % 1 === 0) slots.push(`${toPersianNumber(end)}:۰۰`);
+            return slots;
+        }
+
+        // بارگذاری اولیه صفحه
+        document.addEventListener('DOMContentLoaded', function() {
+            // دریافت اطلاعات سالن از URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const salonId = urlParams.get('id');
+            
+            // در اینجا می‌توانید اطلاعات سالن را از سرور دریافت کنید
+            // fetch(`/api/salons/${salonId}`)...
+            
+            // مقداردهی اولیه خدمات
+            initializeServices();
+            
+            // مقداردهی اولیه امکانات
+            initializeFacilities();
+            
+            // مقداردهی اولیه تقویم
+            const today = new Date();
+            const currentYear = today.getFullYear();
+            const currentMonth = today.getMonth() + 1;
+            const currentDay = today.getDate();
+            
+            let jy = currentYear - 621;
+            let jm, jd;
+            
+            const startOfYear = new Date(currentYear, 2, 21);
+            const dayOfYear = Math.floor((today - startOfYear) / (24 * 60 * 60 * 1000)) + 1;
+            
+            if (dayOfYear <= 0) {
+                jy--;
+                jm = 12;
+                jd = 29 + dayOfYear;
+            } else {
+                if (dayOfYear <= 186) {
+                    jm = Math.ceil(dayOfYear / 31);
+                    jd = dayOfYear % 31 || 31;
+                } else {
+                    const remaining = dayOfYear - 186;
+                    jm = 6 + Math.ceil(remaining / 30);
+                    jd = remaining % 30 || 30;
+                }
+            }
+            
+            const monthNames = [
+                'فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور',
+                'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'
+            ];
+            
+            const todayDisplay = document.getElementById('today-display');
+            todayDisplay.textContent = `امروز: ${toPersianNumber(jd)} ${monthNames[jm - 1]} ${toPersianNumber(jy)}`;
+            
+            const yearSelect = document.getElementById('year-select');
+            for (let year = 1400; year <= 1410; year++) {
+                const option = document.createElement('option');
+                option.value = year;
+                option.textContent = toPersianNumber(year);
+                if (year === jy) option.selected = true;
+                yearSelect.appendChild(option);
+            }
+            
+            const monthSelect = document.getElementById('month-select');
+            monthNames.forEach((month, index) => {
+                const option = document.createElement('option');
+                option.value = index + 1;
+                option.textContent = month;
+                if ((index + 1) === jm) option.selected = true;
+                monthSelect.appendChild(option);
+            });
+            
+            function generateCalendar() {
+                const year = parseInt(yearSelect.value);
+                const month = parseInt(monthSelect.value);
+                const calendarDiv = document.getElementById('calendar');
+                
+                while (calendarDiv.children.length > 7) {
+                    calendarDiv.removeChild(calendarDiv.lastChild);
+                }
+                
+                const monthLength = getJalaaliMonthLength(year, month);
+                const firstDayObj = jalaaliToDateObject(year, month, 1);
+                const firstDay = firstDayObj.getDay();
+                const emptyDays = (firstDay + 1) % 7;
+                
+                for (let i = 0; i < emptyDays; i++) {
+                    const emptyDay = document.createElement('div');
+                    emptyDay.classList.add('day', 'disabled');
+                    calendarDiv.appendChild(emptyDay);
+                }
+                
+                const isCurrentMonth = year === jy && month === jm;
+                
+                for (let day = 1; day <= monthLength; day++) {
+                    const dayElement = document.createElement('div');
+                    dayElement.classList.add('day');
+                    dayElement.textContent = toPersianNumber(day);
+                    
+                    if (isCurrentMonth && day === jd) {
+                        dayElement.classList.add('today');
+                    }
+                    
+                    const isPastDay = (year < jy) || 
+                                    (year === jy && month < jm) || 
+                                    (year === jy && month === jm && day < jd);
+                    
+                    if (isPastDay) {
+                        dayElement.classList.add('disabled');
+                    } else {
+                        dayElement.addEventListener('click', function() {
+                            document.querySelectorAll('.day.selected').forEach(el => {
+                                el.classList.remove('selected');
+                            });
+                            this.classList.add('selected');
+                        });
+                    }
+                    
+                    calendarDiv.appendChild(dayElement);
+                }
+            }
+            
+            generateCalendar();
+            
+            yearSelect.addEventListener('change', generateCalendar);
+            monthSelect.addEventListener('change', generateCalendar);
+            
+            const amBtn = document.getElementById('am-btn');
+            const pmBtn = document.getElementById('pm-btn');
+            const hourSelect = document.getElementById('hour-select');
+            
+            function updateHours(period) {
+                hourSelect.innerHTML = '';
+                
+                const hours = period === 'am' ? 
+                    generateTimeSlots(7, 13) : 
+                    generateTimeSlots(13, 24);
+                
+                hours.forEach(hour => {
+                    const option = document.createElement('option');
+                    option.value = hour;
+                    option.textContent = hour;
+                    hourSelect.appendChild(option);
+                });
+            }
+            
+            amBtn.addEventListener('click', function() {
+                amBtn.classList.add('active');
+                pmBtn.classList.remove('active');
+                updateHours('am');
+            });
+            
+            pmBtn.addEventListener('click', function() {
+                pmBtn.classList.add('active');
+                amBtn.classList.remove('active');
+                updateHours('pm');
+            });
+            
+            amBtn.click();
+            
+            // مدیریت انتخاب روش پرداخت و تغییر متن دکمه
+            function updateReserveBtnText() {
+                const payType = document.querySelector('input[name="payment"]:checked').value;
+                const reserveBtn = document.getElementById('reserve-btn');
+                if (payType === 'online') {
+                    reserveBtn.textContent = 'پرداخت و رزرو آنلاین';
+                } else {
+                    reserveBtn.textContent = 'رزرو زمان';
+                }
+            }
+            document.querySelectorAll('input[name="payment"]').forEach(radio => {
+                radio.addEventListener('change', updateReserveBtnText);
+            });
+            updateReserveBtnText();
+
+            // دکمه رزرو/پرداخت
+            // جایگزین کردن رویداد قبلی
+            const reserveBtn = document.getElementById('reserve-btn');
+            reserveBtn.addEventListener('click', function() {
+                const selectedDay = document.querySelector('.day.selected');
+                if (!selectedDay) {
+                    alert('لطفا یک روز را انتخاب کنید');
+                    return;
+                }
+                const selectedServices = [];
+                document.querySelectorAll('.service-item input[type="checkbox"]:checked').forEach(checkbox => {
+                    selectedServices.push(checkbox.value);
+                });
+                if (selectedServices.length === 0) {
+                    alert('لطفا حداقل یک خدمت را انتخاب کنید');
+                    return;
+                }
+                const year = yearSelect.value;
+                const month = monthNames[parseInt(monthSelect.value) - 1];
+                const day = selectedDay.textContent;
+                const timeType = amBtn.classList.contains('active') ? 'صبح' : 'عصر';
+                const hour = hourSelect.value;
+                const totalDuration = document.getElementById('totalDuration').textContent;
+                const totalPrice = document.getElementById('totalPrice').textContent;
+                const payType = document.querySelector('input[name="payment"]:checked').value;
+                if (payType === 'online') {
+                    alert('در حال انتقال به درگاه پرداخت...');
+                    // کد اتصال به درگاه پرداخت اینجا قرار می‌گیرد
+                    return;
+                }
+                const message = `رزرو برای ${day} ${month} ${toPersianNumber(year)} ساعت ${hour} (${timeType})\nخدمات انتخابی: ${selectedServices.join('، ')}\nمدت زمان کل: ${totalDuration} دقیقه\nهزینه کل: ${totalPrice} تومان`;
+                alert(message);
+                // ارسال اطلاعات رزرو به سرور در صورت نیاز
+            });
+
+        });
+
+
+        // بارگذاری اولیه صفحه
+        document.addEventListener('DOMContentLoaded', function() {
+            // ... کدهای قبلی شما ...
+
+            // اسلایدر نمونه کارها - این کد باید مستقل باشد و داخل رویداد کلیک دکمه رزرو نباشد
+            const slider = document.querySelector('.slider-container');
+            const prevBtn = document.querySelector('.slider-prev');
+            const nextBtn = document.querySelector('.slider-next');
+            const slides = document.querySelectorAll('.slider-container img');
+            const slideCount = slides.length;
+            let currentIndex = 0;
+            const visibleSlides = 8; // تعداد اسلایدهای قابل مشاهده
+            
+            function updateSlider() {
+                const slideWidth = slides[0].clientWidth + 5; // 5px gap
+                slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                
+                // غیرفعال کردن دکمه‌ها در صورت لزوم
+                prevBtn.disabled = currentIndex === 0;
+                nextBtn.disabled = currentIndex >= slideCount - visibleSlides;
+            }
+            
+            nextBtn.addEventListener('click', function() {
+                if (currentIndex < slideCount - visibleSlides) {
+                    currentIndex++;
+                    updateSlider();
+                }
+            });
+            
+            prevBtn.addEventListener('click', function() {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateSlider();
+                }
+            });
+            
+            window.addEventListener('resize', updateSlider);
+            
+            // مقداردهی اولیه اسلایدر
+            updateSlider();
+
+            
+        });
+
+        // مدیریت انتخاب روش پرداخت
+        document.querySelectorAll('input[name="payment"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                const payBtn = document.getElementById('pay-btn');
+                
+                if (this.value === 'online') {
+                    payBtn.classList.remove('disabled');
+                    payBtn.disabled = false;
+                } else {
+                    payBtn.classList.add('disabled');
+                    payBtn.disabled = true;
+                }
+            });
+        });
+
+        // رویداد کلیک دکمه پرداخت
+        document.getElementById('pay-btn').addEventListener('click', function() {
+            if (!this.disabled) {
+                alert('در حال انتقال به درگاه پرداخت...');
+                // کد اتصال به درگاه پرداخت اینجا قرار می‌گیرد
+            }
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>تقویم شمسی</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --border: #e5e7eb;
+      --text: #111827;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --hover: #f3f4f6;
+      --selected-bg: #2563eb;
+      --selected-fg: #fff;
+      --today: #ef4444;
+      --holiday-bg: #ffe5e5; 
+      --holiday-fg: #b91c1c; 
+      --shadow: 0 8px 24px rgba(0, 0, 0, .08);
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";
+      color: var(--text); background: #fff;
+      display: flex; justify-content: center;
+    }
+    .calendar {
+      width: 100%; max-width: 420px; border: 1px solid var(--border);
+      border-radius: var(--radius); box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .cal-header {
+      display: grid; grid-template-columns: 48px 1fr 48px;
+      align-items: center; gap: 8px; padding: 12px;
+      border-bottom: 1px solid var(--border);
+      background: #fafafa;
+    }
+    .nav-btn {
+      display: grid; place-items: center; height: 40px; width: 40px;
+      border-radius: 12px; cursor: pointer; user-select: none;
+      border: 1px solid var(--border);
+    }
+    .nav-btn:hover { background: var(--hover); }
+    .center {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .month-label {
+      font-weight: 700; letter-spacing: .2px;
+    }
+    .year-input {
+      width: 96px; height: 40px; padding: 0 10px; text-align: center;
+      border-radius: 12px; border: 1px solid var(--border);
+      font-size: 14px; background: #fff; color: var(--text);
+    }
+    table { width: 100%; border-collapse: collapse; }
+    thead th {
+      font-weight: 600; font-size: 12px; letter-spacing: .3px;
+      color: var(--muted); padding: 10px 0; background: #fcfcfc;
+      border-bottom: 1px solid var(--border);
+    }
+    tbody td {
+      height: 48px; text-align: center; vertical-align: middle;
+      cursor: pointer; position: relative;
+      border-bottom: 1px solid #fafafa;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    .day {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 36px; height: 36px; border-radius: 12px;
+    }
+    .day:hover { background: var(--hover); }
+    .day.disabled { opacity: .35; cursor: default; }
+    .day.selected { background: var(--selected-bg); color: var(--selected-fg); }
+    .dot-today {
+      position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%);
+      width: 6px; height: 6px; border-radius: 50%; background: var(--today);
+    }
+
+    /* تعطیلات رسمی */
+    .day.holiday { background: var(--holiday-bg); color: var(--holiday-fg); font-weight: 700; }
+    .day.holiday:hover { filter: brightness(0.97); }
+    .day.holiday.selected { background: var(--selected-bg); color: var(--selected-fg); }
+
+    /* روز جمعه */
+    .day.friday { color: red; font-weight: bold; }
+
+    .footer {
+      padding: 10px 12px; border-top: 1px solid var(--border);
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 13px; color: var(--muted); background: #fafafa;
+    }
+    .sel-chip{
+      font-weight: 600; color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div class="calendar" id="calendar">
+    <div class="cal-header">
+      <div class="nav-btn" id="prevMonth" title="ماه قبل" aria-label="ماه قبل">❮</div>
+      <div class="center">
+        <span class="month-label" id="monthName">—</span>
+        <input type="number" class="year-input" id="yearInput" min="1200" max="1600" step="1" />
+      </div>
+      <div class="nav-btn" id="nextMonth" title="ماه بعد" aria-label="ماه بعد">❯</div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ش</th><th>ی</th><th>د</th><th>س</th><th>چ</th><th>پ</th><th style="color:red;">ج</th>
+        </tr>
+      </thead>
+      <tbody id="daysBody"></tbody>
+    </table>
+
+    <div class="footer">
+      <div>امروز: <span id="todayLabel">—</span></div>
+      <div>انتخاب: <span class="sel-chip" id="selectedLabel">—</span></div>
+    </div>
+  </div>
+
+  <script>
+    /* ==== توابع تقویم جلالی ==== */
+    (function(global){
+      const breaks = [-61,9,38,199,426,686,756,818,1111,1181,1210,1635,2060,2097,2192,2262,2324,2394,2456,3178];
+      function div(a,b){return ~~(a/b);}
+      function g2d(gy,gm,gd){let a=div(14-gm,12);let y=gy+4800-a;let m=gm+12*a-3;return gd+div((153*m+2),5)+365*y+div(y,4)-div(y,100)+div(y,400)-32045;}
+      function d2g(jdn){let a=jdn+32044;let b=div((4*a+3),146097);let c=a-div(146097*b,4);let d=div((4*c+3),1461);let e=c-div(1461*d,4);let m=div((5*e+2),153);let day=e-div((153*m+2),5)+1;let month=m+3-12*div(m,10);let year=100*b+d-4800+div(m,10);return {gy:year,gm:month,gd:day};}
+      function jalCal(jy){let bl=breaks.length,gy=jy+621;let leapJ=-14,jp=breaks[0],jm,jump,n,i;if(jy<jp||jy>=breaks[bl-1])throw new Error("سال جلالی خارج از بازه است");for(i=1;i<bl;i++){jm=breaks[i];jump=jm-jp;if(jy<jm)break;leapJ=leapJ+div(jump,33)*8+div((jump%33),4);jp=jm;}n=jy-jp;leapJ=leapJ+div(n,33)*8+div((n%33+3),4);let leapG=div(gy,4)-div((div(gy,100)+1)*3,4)-150;let march=20+leapJ-leapG;if(jump-n===4&&jump%33===4)march++;return {gy,march,leap:((n+1)%33-1)%4};}
+      function j2d(jy,jm,jd){let r=jalCal(jy);return g2d(r.gy,3,r.march)+(jm-1)*31-div(jm,7)*(jm-7)+jd-1;}
+      function d2j(jdn){let g=d2g(jdn),jy=g.gy-621;let r=jalCal(jy),jdn1f=g2d(r.gy,3,r.march);let jd,jm,k=jdn-jdn1f;if(k>=0){if(k<=185){jm=1+div(k,31);jd=(k%31)+1;return {jy,jm,jd};}else{k-=186;jm=7+div(k,30);jd=(k%30)+1;return {jy,jm,jd};}}else{jy-=1;r=jalCal(jy);jdn1f=g2d(r.gy,3,r.march);k=jdn-jdn1f;if(k<=185){jm=1+div(k,31);jd=(k%31)+1;}else{k-=186;jm=7+div(k,30);jd=(k%30)+1;}return {jy,jm,jd};}}
+      function toGregorian(jy,jm,jd){return d2g(j2d(jy,jm,jd));}
+      function toJalaali(gy,gm,gd){return d2j(g2d(gy,gm,gd));}
+      function isLeapJalaaliYear(jy){return jalCal(jy).leap===0;}
+      function jalaaliMonthLength(jy,jm){if(jm<=6)return 31;if(jm<=11)return 30;return isLeapJalaaliYear(jy)?30:29;}
+      function toJdn(jy,jm,jd){return j2d(jy,jm,jd);}
+      global.Jalali={toGregorian,toJalaali,jalaaliMonthLength,toJdn};
+    })(window);
+
+    /* ==== اپ تقویم ==== */
+    (function(){
+      const monthNames=["فروردین","اردیبهشت","خرداد","تیر","مرداد","شهریور","مهر","آبان","آذر","دی","بهمن","اسفند"];
+      const daysBody=document.getElementById("daysBody");
+      const monthName=document.getElementById("monthName");
+      const yearInput=document.getElementById("yearInput");
+      const prevBtn=document.getElementById("prevMonth");
+      const nextBtn=document.getElementById("nextMonth");
+      const todayLabel=document.getElementById("todayLabel");
+      const selectedLabel=document.getElementById("selectedLabel");
+
+      const now=new Date();
+      const jNow=Jalali.toJalaali(now.getFullYear(),now.getMonth()+1,now.getDate());
+
+      const SOLAR_HOLIDAYS=[{m:1,d:1,name:"عید نوروز"},{m:1,d:2,name:"عید نوروز"},{m:1,d:3,name:"عید نوروز"},{m:1,d:4,name:"عید نوروز"},{m:1,d:12,name:"روز جمهوری اسلامی"},{m:1,d:13,name:"سیزده‌بدر"},{m:3,d:14,name:"رحلت امام خمینی"},{m:3,d:15,name:"قیام ۱۵ خرداد"},{m:11,d:22,name:"پیروزی انقلاب"},{m:12,d:29,name:"ملی شدن نفت"}];
+
+      function jsWeekdayOfJalaliFirst(jy,jm){
+        const g=Jalali.toGregorian(jy,jm,1);
+        const d=new Date(g.gy,g.gm-1,g.gd).getDay();
+        return (d+1)%7; // شنبه=0 ... جمعه=6
+      }
+
+      function getHolidayInfo(jy,jm,jd){
+        const solar=SOLAR_HOLIDAYS.find(h=>h.m===jm&&h.d===jd);
+        if(solar) return solar;
+        return null;
+      }
+
+      let state={jy:jNow.jy,jm:jNow.jm,selected:null};
+
+      function render(){
+        yearInput.value=state.jy;
+        monthName.textContent=monthNames[state.jm-1];
+        todayLabel.textContent=`${jNow.jy}/${String(jNow.jm).padStart(2,'0')}/${String(jNow.jd).padStart(2,'0')}`;
+
+        daysBody.innerHTML="";
+        const firstIdx=jsWeekdayOfJalaliFirst(state.jy,state.jm);
+        const dim=Jalali.jalaaliMonthLength(state.jy,state.jm);
+
+        let row=document.createElement("tr");
+        for(let i=0;i<firstIdx;i++){
+          const td=document.createElement("td");
+          td.innerHTML=`<span class="day disabled"></span>`;
+          row.appendChild(td);
+        }
+
+        for(let d=1;d<=dim;d++){
+          if(row.children.length===7){daysBody.appendChild(row);row=document.createElement("tr");}
+          const td=document.createElement("td");
+          const btn=document.createElement("div");
+          btn.className="day";
+          btn.textContent=d;
+
+          const hinfo=getHolidayInfo(state.jy,state.jm,d);
+          if(hinfo){btn.classList.add("holiday");btn.title=hinfo.name;}
+
+          // ✅ جمعه؟
+          const weekday=(row.children.length)%7;
+          if(weekday===6) btn.classList.add("friday");
+
+          if(state.jy===jNow.jy&&state.jm===jNow.jm&&d===jNow.jd){
+            const dot=document.createElement("span");dot.className="dot-today";td.appendChild(dot);
+          }
+          if(state.selected&&state.selected.jy===state.jy&&state.selected.jm===state.jm&&state.selected.jd===d){
+            btn.classList.add("selected");
+          }
+
+          btn.addEventListener("click",()=>{
+            state.selected={jy:state.jy,jm:state.jm,jd:d};
+            selectedLabel.textContent=`${state.jy}/${String(state.jm).padStart(2,'0')}/${String(d).padStart(2,'0')}`+(hinfo?` (${hinfo.name})`:"");
+            render();
+          });
+
+          td.appendChild(btn);row.appendChild(td);
+        }
+        if(row.children.length) daysBody.appendChild(row);
+
+        if(!state.selected){selectedLabel.textContent="—";}
+      }
+
+      prevBtn.addEventListener("click",()=>{state.jm--;if(state.jm<1){state.jm=12;state.jy--;}render();});
+      nextBtn.addEventListener("click",()=>{state.jm++;if(state.jm>12){state.jm=1;state.jy++;}render();});
+      yearInput.addEventListener("change",(e)=>{const v=parseInt(e.target.value,10);if(!isNaN(v)&&v>=+yearInput.min&&v<=+yearInput.max){state.jy=v;render();}else{e.target.value=state.jy;}});
+
+      render();
+    })();
+  </script>
+</body>
+</html>
