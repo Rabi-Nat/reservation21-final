@@ -1,0 +1,175 @@
+/* RTL Specific Styles */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Menu and Navigation */
+.vs-menu-wrapper .vs-mobile-menu ul li a {
+    text-align: right;
+}
+
+.vs-menu-wrapper .vs-mobile-menu ul li .sub-menu {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/* Icons and Buttons */
+.media-icon {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.vs-btn {
+    padding: 15px 30px;
+}
+
+/* Text Alignment */
+.text-left {
+    text-align: right !important;
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+/* Margins and Paddings */
+.ml-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.mr-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+/* Lists */
+ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+/* Form Elements */
+.form-control {
+    text-align: right;
+}
+
+/* Social Icons */
+.social-links a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Slider and Carousel */
+.slick-prev {
+    right: 10px;
+    left: auto;
+}
+
+.slick-next {
+    left: 10px;
+    right: auto;
+}
+
+/* Price and Numbers */
+.price {
+    direction: ltr;
+    display: inline-block;
+}
+
+/* Calendar and Date Picker */
+.datetimepicker {
+    direction: rtl;
+}
+
+/* Custom RTL Fixes */
+.vs-menu-wrapper .vs-mobile-menu ul li .sub-menu li a:before {
+    right: -20px;
+    left: auto;
+}
+
+.info-media1 .media-icon {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+/* Footer Adjustments */
+.footer-widget {
+    text-align: right;
+}
+
+.footer-widget .widget_title {
+    text-align: right;
+}
+
+/* Contact Form */
+.contact-form .form-group {
+    text-align: right;
+}
+
+/* Service Cards */
+.service-card {
+    text-align: right;
+}
+
+/* Blog Posts */
+.blog-card {
+    text-align: right;
+}
+
+.blog-card .blog-meta {
+    text-align: right;
+}
+
+/* Appointment Form */
+.appointment-form {
+    text-align: right;
+}
+
+/* Team Members */
+.team-card {
+    text-align: right;
+}
+
+/* Gallery */
+.gallery-item {
+    text-align: right;
+}
+
+/* Shop Items */
+.product-card {
+    text-align: right;
+}
+
+/* Custom Animations */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .vs-menu-wrapper .vs-mobile-menu ul li .sub-menu {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .vs-menu-wrapper .vs-mobile-menu ul li .sub-menu {
+        padding-right: 10px;
+    }
+} 

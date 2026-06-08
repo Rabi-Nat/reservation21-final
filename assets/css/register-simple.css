@@ -1,0 +1,250 @@
+.register-bg {
+    min-height: 100vh;
+    background: url('../img/gallery/salon1.jpg') no-repeat center center fixed;
+    
+    background-size: cover;
+    position: relative;
+}
+.register-box {
+    background: rgba(240, 228, 243, 0.97);
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    padding: 36px 32px 28px 32px;
+}
+.register-title {
+    font-family: 'Marcellus', serif;
+    font-size: 2rem;
+    color: #9a563a;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.user-type-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    
+}
+.user-type-btn {
+    border: 1.5px solid #9a563a;
+    background: #fff;
+    color: #9a563a;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.user-type-btn.active {
+    background: #9a563a;
+    color: #fff;
+}
+.register-form {
+    display: none;
+}
+.register-form.active {
+    display: block;
+}
+.form-group {
+    margin-bottom: 12px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #121f38;
+    font-weight: 500;
+    
+}
+.form-group input, .form-group select {
+    width: 100%;
+    max-height:45px;
+    padding: 2px 10px;
+    border: 1px solid #e7e5e5;
+    border-radius: 6px;
+    font-size: 1rem;
+    
+}
+.google-btn {
+    width: 100%;
+    background: #fff;
+    color: #444;
+    border: 1px solid #e7e5e5;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1rem;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: box-shadow 0.2s;
+}
+.google-btn:hover {
+    box-shadow: 0 2px 8px rgba(66,133,244,0.12);
+}
+.submit-btn {
+    width: 100%;
+    background: #9a563a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+.submit-btn:hover {
+    background: #7a3e28;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+.form-row .form-group {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .register-box {
+        max-width:80vw;
+        padding: 18px 16px 18px 6px;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+        max-width:90%;
+        padding-right:5% ;
+    }
+    .form-row .form-group {
+        margin-bottom: 12px;
+    }
+}
+
+.back-btn {
+    background: linear-gradient(90deg, #f8e7de 0%, #ffe5d0 100%);
+    border:1px solid #9a563a;
+    border-radius: 12px;
+    padding: 8px 28px;
+    font-size: 1.08rem;
+    color: #9a563a;
+    text-decoration: none;
+    box-shadow: 0 4px 16px 0 rgba(154,86,58,0.08), 0 1.5px 4px 0 rgba(0,0,0,0.04);
+    transition: all 0.25s cubic-bezier(.4,0,.2,1);
+    font-family: inherit;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.back-btn::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: 0; top: 0;
+    background: rgba(154,86,58,0.07);
+    opacity: 0;
+    transition: opacity 0.25s;
+    pointer-events: none;
+}
+.back-btn:hover, .back-btn:focus {
+    color: #fff;
+    background: linear-gradient(90deg, #9a563a 0%, #c97b4a 100%);
+    box-shadow: 0 8px 24px 0 rgba(154,86,58,0.18), 0 2px 8px 0 rgba(0,0,0,0.08);
+    transform: translateY(-2px) scale(1.04);
+}
+.back-btn:hover::after, .back-btn:focus::after {
+    opacity: 1;
+}
+
+/* استایل سفارشی برای سلکت‌های فرم ثبت‌نام */
+.custom-select {
+  padding-left: 2.5em; /* فضای کافی برای فلش سمت چپ (در حالت RTL) */
+  padding-right: 1em;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23666" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat left 0.7em center/1.2em, #fff;
+  /* فلش سمت چپ برای RTL */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  min-width: 0;
+  font-size: 1em;
+  height: 2.5em;
+  transition: border 0.2s;
+}
+.custom-select:focus {
+  border-color: #888;
+  outline: none;
+}
+/* برای اطمینان از عدم نمایش فلش پیش‌فرض در همه مرورگرها */
+.custom-select::-ms-expand {
+  display: none;
+}
+
+
+
+
+.notification1 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 15px 25px;
+    background-color: rgb(48, 225, 13);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* animation: fadeIn 0.5s, fadeOut 0.5s 3s; */
+
+    animation-name: fadeIn, fadeOut;
+    animation-duration: 0.5s, 0.5s;
+    animation-delay: 0s, 3s;
+    animation-fill-mode: forwards, forwards;
+}
+
+.notification2 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 15px 25px;
+    background-color: rgb(249, 85, 21);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* animation: fadeIn 0.5s, fadeOut 0.5s 3s; */
+
+    animation-name: fadeIn, fadeOut;
+    animation-duration: 0.5s, 0.5s;
+    animation-delay: 0s, 3s;
+    animation-fill-mode: forwards, forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}

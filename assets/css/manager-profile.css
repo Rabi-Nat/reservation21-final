@@ -1,0 +1,322 @@
+.salon-facilities {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.salon-facilities-title {
+    font-size: 1.3rem;
+    margin-bottom: 18px;
+    text-align: right;
+    background-color: peru;
+    color: white;
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.salon-facilities-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+}
+
+.salon-facility-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.2s;
+    position: relative;
+    padding-right: 30px;
+}
+
+.salon-facility-label:hover {
+    background-color: #f0f0f0;
+}
+
+/* چک‌باکس واقعی را مخفی می‌کنیم */
+.salon-facility-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* چک‌باکس سفارشی */
+.custom-checkbox {
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 2px solid #e9ac7a;
+    border-radius: 3px;
+}
+
+/* وقتی چک‌باکس انتخاب شود */
+.salon-facility-checkbox:checked+.custom-checkbox {
+    background-color: #f8a557;
+}
+
+/* علامت تیک */
+.custom-checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.salon-facility-checkbox:checked+.custom-checkbox:after {
+    display: block;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 600px) {
+    .salon-facilities-table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* استایل‌های جدول خدمات */
+#serviceTable {
+    font-size: 0.9rem;
+    /* border-collapse: collapse; */
+}
+
+#serviceTable th {
+    font-size: 0.95rem;
+    padding: 8px 4px;
+    white-space: nowrap;
+}
+
+#serviceTable td {
+    padding: 6px 4px;
+    vertical-align: middle;
+}
+
+/* تنظیم عرض ستون‌ها */
+#serviceTable th:nth-child(1),
+#serviceTable td:nth-child(1) {
+    width: 25%;
+    min-width: 150px;
+}
+
+#serviceTable th:nth-child(2),
+#serviceTable td:nth-child(2) {
+    width: 12%;
+    min-width: 80px;
+}
+
+#serviceTable th:nth-child(3),
+#serviceTable td:nth-child(3) {
+    width: 15%;
+    min-width: 100px;
+}
+
+#serviceTable th:nth-child(4),
+#serviceTable td:nth-child(4) {
+    width: 10%;
+    min-width: 70px;
+}
+
+#serviceTable th:nth-child(5),
+#serviceTable td:nth-child(5) {
+    width: 15%;
+    min-width: 100px;
+}
+
+#serviceTable th:nth-child(6),
+#serviceTable td:nth-child(6) {
+    width: 12%;
+    min-width: 80px;
+}
+
+#serviceTable th:nth-child(7),
+#serviceTable td:nth-child(7) {
+    width: 8%;
+    min-width: 60px;
+}
+
+#serviceTable th:nth-child(8),
+#serviceTable td:nth-child(8) {
+    width: 13%;
+    min-width: 90px;
+}
+
+/* استایل input ها و select ها */
+#serviceTable .form-control,
+#serviceTable .form-select {
+    font-size: 0.85rem;
+    padding: 4px 6px;
+    height: auto;
+    line-height: 1.2;
+}
+
+#serviceTable .input-group-text {
+    font-size: 0.8rem;
+    padding: 4px 6px;
+}
+
+/* استایل دکمه‌های عملیات */
+#serviceTable .action-btn {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+    margin: 1px;
+}
+
+/* تنظیم عرض input های خاص */
+#serviceTable .service-duration {
+    /* width: 50px; */
+    min-width: 50px;
+}
+
+#serviceTable .service-discount {
+    width: 40px;
+    min-width: 40px;
+}
+
+#serviceTable .service-price,
+#serviceTable .service-final-price {
+    /* width: 80px; */
+    min-width: 80px;
+}
+
+/* تنظیم select نوع تخفیف */
+#serviceTable .discount-type {
+    width: 70px;
+    min-width: 70px;
+}
+
+/* تنظیم select وضعیت */
+#serviceTable .service-status {
+    width: 60px;
+    min-width: 60px;
+}
+
+/* تنظیم select نوع خدمت */
+#serviceTable .service-type {
+    width: 100%;
+    min-width: 120px;
+}
+
+/* تنظیم input نوع خدمت سفارشی */
+#serviceTable .custom-service-type {
+    font-size: 0.85rem;
+    padding: 4px 6px;
+}
+
+/* تنظیم date range */
+#serviceTable .discount-date-range {
+    font-size: 0.8rem;
+}
+
+#serviceTable .discount-date-range input {
+    font-size: 0.8rem;
+    padding: 3px 4px;
+}
+
+/* تنظیم آیکون فلش select ها */
+#serviceTable .form-select {
+    background-position: left 0.5rem center;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+/* تنظیم آیکون فلش برای select های کوچک */
+#serviceTable .form-select-sm {
+    background-position: left 0.3rem center;
+    padding-left: 1.2rem;
+    padding-right: 0.3rem;
+}
+
+/* تنظیم آیکون فلش برای select نوع تخفیف */
+#serviceTable .discount-type {
+    background-position: left 0.3rem center;
+    padding-left: 1.2rem;
+    padding-right: 0.3rem;
+}
+
+/* تنظیم آیکون فلش برای select وضعیت */
+#serviceTable .service-status {
+    background-position: left 0.3rem center;
+    padding-left: 1.2rem;
+    padding-right: 0.3rem;
+}
+
+/* تنظیم آیکون فلش برای select نوع خدمت */
+#serviceTable .service-type {
+    background-position: left 0.5rem center;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.notification1 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 15px 25px;
+    background-color: rgb(48, 225, 13);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* animation: fadeIn 0.5s, fadeOut 0.5s 3s; */
+
+    animation-name: fadeIn, fadeOut;
+    animation-duration: 0.5s, 0.5s;
+    animation-delay: 0s, 3s;
+    animation-fill-mode: forwards, forwards;
+}
+
+.notification2 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 15px 25px;
+    background-color: rgb(249, 85, 21);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* animation: fadeIn 0.5s, fadeOut 0.5s 3s; */
+
+    animation-name: fadeIn, fadeOut;
+    animation-duration: 0.5s, 0.5s;
+    animation-delay: 0s, 3s;
+    animation-fill-mode: forwards, forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}

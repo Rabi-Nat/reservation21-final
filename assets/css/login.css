@@ -1,0 +1,113 @@
+/* login */
+.notification1 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 15px 25px;
+    background-color: rgb(48, 225, 13);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* animation: fadeIn 0.5s, fadeOut 0.5s 3s; */
+
+    animation-name: fadeIn, fadeOut;
+    animation-duration: 0.5s, 0.5s;
+    animation-delay: 0s, 3s;
+    animation-fill-mode: forwards, forwards;
+}
+
+.notification2 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 15px 25px;
+    background-color: rgb(249, 85, 21);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    /* animation: fadeIn 0.5s, fadeOut 0.5s 3s; */
+
+    animation-name: fadeIn, fadeOut;
+    animation-duration: 0.5s, 0.5s;
+    animation-delay: 0s, 3s;
+    animation-fill-mode: forwards, forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+}
+
+.login-box {
+  background: rgba(240, 228, 243, 0.97);
+  flex: 1;
+  min-width: 500px;
+  max-width: 500px;
+  margin: 0 10px 5px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  padding: 36px 32px 28px 32px;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+.register-link a {
+  color: #bd7a22ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      gap: 15px;
+  }
+  
+  .login-box {
+      width: 100%;
+      min-width: unset;
+      max-width: 100%;
+      margin: 0;
+      padding: 15px;
+      box-sizing: border-box;
+  }
+}
